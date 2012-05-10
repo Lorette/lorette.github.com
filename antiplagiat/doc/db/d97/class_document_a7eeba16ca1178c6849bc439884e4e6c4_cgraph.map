@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/d97/class_document.html#a0f5bcd4826f6a9e5d99c82c5bfe4e581" title="Adapte le nombre de cible." alt="" coords="236,5,401,35"/>
+<area shape="rect" id="node5" href="$db/d97/class_document.html#aa15cdc8995dd89316337239f31a18059" title="Determine les bouts de texte a teste pour la section &quot;Par paragraphe&quot;." alt="" coords="223,59,415,88"/>
+<area shape="rect" id="node7" href="$db/d97/class_document.html#a80db3b431896ac51855b7763e4cba37c" title="Determine les bouts de texte a tester pour la section &quot;Par Document&quot; et &quot;Par Dossier&amp;q..." alt="" coords="212,112,425,141"/>
+<area shape="rect" id="node11" href="$de/dab/class_ihm.html#aa89a68f1367a1ef42c48867152287fca" title="Recupere l&#39;onglet utilise." alt="" coords="515,405,616,435"/>
+<area shape="rect" id="node13" href="$de/dab/class_ihm.html#a5cf36ee5370e8b077a10538d895dc6ff" title="Recupere le texte dans le cas d&#39;une entree par paragraphe." alt="" coords="255,219,383,248"/>
+<area shape="rect" id="node15" href="$de/dab/class_ihm.html#a368da62012e89b0721d80ad274d78e60" title="Recupere le nombre de mots envoye par requete." alt="" coords="261,165,376,195"/>
+<area shape="rect" id="node19" href="$de/dab/class_ihm.html#ae011630e1a5ce3b62d487cad011c8168" title="Verifie la selection par police." alt="" coords="256,272,381,301"/>
+<area shape="rect" id="node23" href="$de/dab/class_ihm.html#a837e99b1f14b30571b433065819c8659" title="Verifie la selection par taille." alt="" coords="260,325,377,355"/>
+<area shape="rect" id="node27" href="$de/dab/class_ihm.html#ac095b679b10371ded382829e3c9dd3e6" title="Recupere le pourcentage de document a tester." alt="" coords="241,589,396,619"/>
+<area shape="rect" id="node31" href="$d9/ddb/class_extension.html#a00f336ff69e7a2d9da5c411346af548e" title="A reimplementer selon le moteur de recherche utilise." alt="" coords="253,483,384,512"/>
+<area shape="rect" id="node33" href="$de/dab/class_ihm.html#a34f168c901bf6365505f988e5efcc237" title="Recupere la phrase dans le cas d&#39;une entree par phrase." alt="" coords="272,536,365,565"/>
+<area shape="rect" id="node35" href="$de/dab/class_ihm.html#a61b48d12b0d2876bfd9a81c4e126e257" title="Verifie si un moteur de recherche est selectionne." alt="" coords="269,379,368,408"/>
+<area shape="rect" id="node38" href="$de/dab/class_ihm.html#a899d4d6dea93e95ba48e1a8557666e0b" title="Recupere le nombre maximum de requete." alt="" coords="249,643,388,672"/>
+<area shape="rect" id="node42" href="$db/d97/class_document.html#ae4c8fb0f709af464f710ad51b9f3ed15" title="Signal emit lorsque la progression du traitement avance." alt="" coords="249,696,388,725"/>
+<area shape="rect" id="node9" href="$d9/ddb/class_extension.html#ae5c5b82f276ab55d44b80832e5209010" title="A reimplementer selon le moteur de recherche utilise." alt="" coords="499,112,632,141"/>
+<area shape="rect" id="node17" href="$db/d2b/class_settings.html#a996387a2c875f699345eb3df8c2584fb" title="Retourne le nombre de mots." alt="" coords="495,165,636,195"/>
+<area shape="rect" id="node21" href="$db/d2b/class_settings.html#a067407ecd06393e10c9003a321dfdbe3" title="Retourne le choix de l&#39;utilisateur pour la selection par police." alt="" coords="489,272,641,301"/>
+<area shape="rect" id="node25" href="$db/d2b/class_settings.html#a154e35cda73398b873fc225207b569a4" title="Retourne le choix de l&#39;utilisateur pour la selection par taille." alt="" coords="492,325,639,355"/>
+<area shape="rect" id="node29" href="$db/d2b/class_settings.html#a0be644ac3a1164e4a1968ac9d83bb0c5" title="Retourne le pourcentage du texte a tester." alt="" coords="475,589,656,619"/>
+<area shape="rect" id="node40" href="$db/d2b/class_settings.html#a453fa7e9d6fcdd2fc565f5e555d7b630" title="Retourne le nombre de requete maximum." alt="" coords="483,643,648,672"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$db/d7d/moteur_recherche_8h.html" title="Moteur de recherche." alt="" coords="815,160,948,189"/>
+<area shape="rect" id="node22" href="$d5/d78/ihm_8h.html" title="Interface Homme Machine." alt="" coords="535,160,588,189"/>
+<area shape="rect" id="node50" href="$df/db4/google_8h.html" title="Moteur de recherche Google." alt="" coords="852,83,921,112"/>
+<area shape="rect" id="node55" href="$de/d87/yahoo_8h.html" title="Moteur de recherche Yahoo." alt="" coords="1149,83,1216,112"/>
+<area shape="rect" id="node60" href="$d4/d72/bing_8h.html" title="Moteur de recherche Bing." alt="" coords="956,83,1012,112"/>
+<area shape="rect" id="node65" href="$d4/d94/list_text_cible_8h.html" title="listTextCible.h" alt="" coords="2507,83,2611,112"/>
+<area shape="rect" id="node69" href="$d9/dc5/text_cible_8h.html" title="Textes Cibles a tester." alt="" coords="2601,160,2684,189"/>
+<area shape="rect" id="node79" href="$db/dc7/textdocx_8h.html" title="Extension de fichier DOCX." alt="" coords="1687,83,1769,112"/>
+<area shape="rect" id="node101" href="$d8/d6e/text_pdf_8h.html" title="Extension de fichier PDF." alt="" coords="1316,83,1391,112"/>
+<area shape="rect" id="node110" href="$d3/d6c/textodt_8h.html" title="Extension de fichier ODT." alt="" coords="2128,83,2200,112"/>
+<area shape="rect" id="node36" href="$dc/dfb/ihm_popup_8h.html" title="IHM de resultat." alt="" coords="408,237,499,267"/>
+<area shape="rect" id="node45" href="$de/d60/settings_8h.html" title="Gere les configuration." alt="" coords="523,237,600,267"/>
+<area shape="rect" id="node92" href="$d5/d9d/xstring_8h.html" title="String ameliore." alt="" coords="2252,160,2324,189"/>
+<area shape="rect" id="node96" href="$d8/d3b/extension_8h.html" title="Extension de fichier." alt="" coords="1684,160,1772,189"/>
+</map>

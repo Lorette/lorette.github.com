@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Anti-Plagiat:  Fichier source de src/Headers/document.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Anti-Plagiat&#160;<span id="projectnumber">Version 1.0</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="../../globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>src/Headers/document.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="../../db/df5/document_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/***********************************************************************</span>
+<a name="l00002"></a>00002 <span class="comment"> * Module:  Document.h</span>
+<a name="l00003"></a>00003 <span class="comment"> * Author:  RONGIARD Fabien</span>
+<a name="l00004"></a>00004 <span class="comment"> *          DUREUIL Brice</span>
+<a name="l00005"></a>00005 <span class="comment"> *          CRESSON Thomas</span>
+<a name="l00006"></a>00006 <span class="comment"> *          NAJAR Soufiene</span>
+<a name="l00007"></a>00007 <span class="comment"> *          FATNI Elkhader</span>
+<a name="l00008"></a>00008 <span class="comment"> * Modified: vendredi 26 mars 2011 16:46:28</span>
+<a name="l00009"></a>00009 <span class="comment"> * Purpose: Declaration of the class Document</span>
+<a name="l00010"></a>00010 <span class="comment"> ***********************************************************************/</span>
+<a name="l00011"></a>00011 
+<a name="l00012"></a>00012 <span class="preprocessor">#ifndef DOCUMENT_H</span>
+<a name="l00013"></a>00013 <span class="preprocessor"></span><span class="preprocessor">#define DOCUMENT_H</span>
+<a name="l00014"></a>00014 <span class="preprocessor"></span>
+<a name="l00027"></a>00027 <span class="preprocessor">#include &lt;QString&gt;</span>
+<a name="l00028"></a>00028 <span class="preprocessor">#include &quot;<a class="code" href="../../db/d7d/moteur_recherche_8h.html" title="Moteur de recherche.">moteurRecherche.h</a>&quot;</span>
+<a name="l00029"></a>00029 <span class="preprocessor">#include &quot;<a class="code" href="../../d5/d78/ihm_8h.html" title="Interface Homme Machine.">ihm.h</a>&quot;</span>
+<a name="l00030"></a>00030 <span class="preprocessor">#include &quot;<a class="code" href="../../df/db4/google_8h.html" title="Moteur de recherche Google.">google.h</a>&quot;</span>
+<a name="l00031"></a>00031 <span class="preprocessor">#include &quot;<a class="code" href="../../de/d87/yahoo_8h.html" title="Moteur de recherche Yahoo.">yahoo.h</a>&quot;</span>
+<a name="l00032"></a>00032 <span class="preprocessor">#include &quot;<a class="code" href="../../d4/d72/bing_8h.html" title="Moteur de recherche Bing.">bing.h</a>&quot;</span>
+<a name="l00033"></a>00033 <span class="preprocessor">#include &quot;<a class="code" href="../../d4/d94/list_text_cible_8h.html">listTextCible.h</a>&quot;</span>
+<a name="l00034"></a>00034 <span class="preprocessor">#include &quot;<a class="code" href="../../d9/dc5/text_cible_8h.html" title="Textes Cibles a tester.">textCible.h</a>&quot;</span>
+<a name="l00035"></a>00035 <span class="preprocessor">#include &quot;<a class="code" href="../../db/dc7/textdocx_8h.html" title="Extension de fichier DOCX.">textdocx.h</a>&quot;</span>
+<a name="l00036"></a>00036 <span class="preprocessor">#include &quot;<a class="code" href="../../d8/d6e/text_pdf_8h.html" title="Extension de fichier PDF.">textPdf.h</a>&quot;</span>
+<a name="l00037"></a>00037 <span class="preprocessor">#include &quot;<a class="code" href="../../d3/d6c/textodt_8h.html" title="Extension de fichier ODT.">textodt.h</a>&quot;</span>
+<a name="l00038"></a>00038 <span class="preprocessor">#include &lt;QObject&gt;</span>
+<a name="l00039"></a>00039 <span class="preprocessor">#include &lt;QStringList&gt;</span>
+<a name="l00040"></a>00040 <span class="preprocessor">#include &lt;QtGlobal&gt;</span>
+<a name="l00041"></a>00041 
+<a name="l00042"></a>00042 <span class="keyword">class </span><a class="code" href="../../d7/da1/class_moteur_recherche.html" title="Classe MoteurRecherche :">MoteurRecherche</a>;
+<a name="l00043"></a>00043 <span class="keyword">class </span><a class="code" href="../../de/dab/class_ihm.html" title="Classe Ihm :">Ihm</a>;
+<a name="l00044"></a>00044 <span class="keyword">class </span><a class="code" href="../../d7/d4b/class_google.html" title="Classe Google :">Google</a>;
+<a name="l00045"></a>00045 <span class="keyword">class </span><a class="code" href="../../d6/db9/class_yahoo.html" title="Classe Yahoo :">Yahoo</a>;
+<a name="l00046"></a>00046 <span class="keyword">class </span><a class="code" href="../../da/d37/class_list_text_cicble.html" title="Classe ListTextCicble :">ListTextCicble</a>;
+<a name="l00047"></a>00047 <span class="keyword">class </span><a class="code" href="../../d9/db5/class_text_cible.html" title="Classe TextCible :">TextCible</a>;
+<a name="l00048"></a>00048 <span class="keyword">class </span><a class="code" href="../../d9/ddb/class_extension.html" title="Classe Extension :">Extension</a>;
+<a name="l00049"></a>00049 <span class="keyword">class </span><a class="code" href="../../d9/ddd/class_text_docx.html" title="Classe TextDocx :">TextDocx</a>;
+<a name="l00050"></a>00050 <span class="keyword">class </span><a class="code" href="../../dd/d60/class_text_pdf.html" title="Classe TextPdf :">TextPdf</a>;
+<a name="l00051"></a>00051 <span class="keyword">class </span><a class="code" href="../../d8/d62/class_text_odt.html" title="Classe TextOdt :">TextOdt</a>;
+<a name="l00052"></a>00052 
+<a name="l00061"></a><a class="code" href="../../db/df5/document_8h.html#a7dc3d46a70788c9ffbd70b6f55ac1923">00061</a> <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="../../d7/d71/struct_meme_source.html" title="Structure MemeSource :">MemeSource</a> <a class="code" href="../../d7/d71/struct_meme_source.html" title="Structure MemeSource :">MemeSource</a>;
+<a name="l00062"></a><a class="code" href="../../d7/d71/struct_meme_source.html">00062</a> <span class="keyword">struct </span><a class="code" href="../../d7/d71/struct_meme_source.html" title="Structure MemeSource :">MemeSource</a>
+<a name="l00063"></a>00063 {
+<a name="l00064"></a><a class="code" href="../../d7/d71/struct_meme_source.html#a1448e2539153e0014af5bca19efb6837">00064</a>     <span class="keywordtype">int</span> <a class="code" href="../../d7/d71/struct_meme_source.html#a1448e2539153e0014af5bca19efb6837">position</a>; 
+<a name="l00065"></a><a class="code" href="../../d7/d71/struct_meme_source.html#aaee8fb7a19eff708100454c2af54b42b">00065</a>     QString <a class="code" href="../../d7/d71/struct_meme_source.html#aaee8fb7a19eff708100454c2af54b42b">text</a>; 
+<a name="l00066"></a>00066 };
+<a name="l00067"></a>00067 
+<a name="l00068"></a>00068 
+<a name="l00076"></a><a class="code" href="../../db/d97/class_document.html">00076</a> <span class="keyword">class </span><a class="code" href="../../db/d97/class_document.html" title="Classe Document :">Document</a> : <span class="keyword">public</span> QObject
+<a name="l00077"></a>00077 {
+<a name="l00078"></a>00078 
+<a name="l00079"></a>00079 Q_OBJECT
+<a name="l00080"></a>00080 
+<a name="l00081"></a>00081 <span class="keyword">public</span>:
+<a name="l00088"></a>00088    <a class="code" href="../../db/d97/class_document.html#a0aa78f7aef5ff16008587df73f2b7b6b" title="Constructeur.">Document</a>(<a class="code" href="../../de/dab/class_ihm.html" title="Classe Ihm :">Ihm</a>* interface);
+<a name="l00094"></a>00094    <a class="code" href="../../db/d97/class_document.html#ac2e3f62307dc22baac21ddc10fa1609c" title="Destructeur.">~Document</a>();
+<a name="l00100"></a>00100    QString <a class="code" href="../../db/d97/class_document.html#a2906f7e1c51bac1b13112fef75496688" title="Retourne le texte du document.">getText</a>();
+<a name="l00106"></a>00106    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a48b9e7abaf30ca8db359f581e11b81bb" title="Initialise le texte du document.">setText</a>(QString text);
+<a name="l00114"></a>00114    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#ac5abbb6b4c81cb4a4fc90aa78faeba65" title="Traitement complet du document.">traiterDocument</a>();
+<a name="l00121"></a>00121    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a09264b30a5908a15c5e226400e2d8260" title="Traitement complet d&amp;#39;un dossier.">traiterDossier</a>();
+<a name="l00130"></a>00130    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#aadd899b4dd21aa3b9cd8a142e23c9d0d" title="Traite l&amp;#39;envoi le la prochaine requete.">traiterEnvoie</a>(<span class="keywordtype">int</span> idMoteurRecherche);
+<a name="l00135"></a>00135    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a7eeba16ca1178c6849bc439884e4e6c4" title="Initialise les varaible, object et determine les cible.">initialisation</a>();
+<a name="l00142"></a>00142    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#aa15cdc8995dd89316337239f31a18059" title="Determine les bouts de texte a teste pour la section &amp;quot;Par paragraphe&amp;quot;.">determinTextCible</a>(<span class="keywordtype">int</span> nbMots);
+<a name="l00148"></a>00148    <span class="keywordtype">bool</span> <a class="code" href="../../db/d97/class_document.html#aae7aac60d4f8617f6404f04197c664b0" title="Pour la section &amp;quot;Par phrase&amp;quot; determine si cette phrase est plagie.">textIsPlagier</a>();
+<a name="l00155"></a>00155    <span class="keywordtype">bool</span> <a class="code" href="../../db/d97/class_document.html#a0f8bf15df9cb2e47bdd5f237c0223bd9" title="Initialise le fichier a traiter, et teste si il est valide.">setFile</a>(QString file);
+<a name="l00163"></a>00163    QString <a class="code" href="../../db/d97/class_document.html#af73fc5a62045332348f529e7f185e455" title="Retourne le document enrichie avec du HTML/CSS.">getDocumentEnrichi</a>(<span class="keywordtype">int</span> mode);
+<a name="l00169"></a>00169    QString <a class="code" href="../../db/d97/class_document.html#aeb90ae8a79b6b0d7340428b143e19d41" title="Pour la section &amp;quot;Par phrase&amp;quot; retourne l&amp;#39;URL d&amp;#39;ou provient le texte.">getUrlTextPlagier</a>();
+<a name="l00178"></a>00178    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a80db3b431896ac51855b7763e4cba37c" title="Determine les bouts de texte a tester pour la section &amp;quot;Par Document&amp;quot; et &amp;quot;Par Dossier&amp;q...">determinTextCibleFile</a>(<span class="keywordtype">int</span> nbMots, <span class="keywordtype">bool</span> tri_police, <span class="keywordtype">bool</span> tri_size);
+<a name="l00185"></a>00185    QList&lt;MemeSource&gt; <a class="code" href="../../db/d97/class_document.html#aec5b2eada43b88cf01b09bf4d04ab593" title="Renvoi une liste de toute les Cible plagier sur la meme source.">getMemeSource</a>(QString source);
+<a name="l00192"></a>00192    <span class="keywordtype">int</span> <a class="code" href="../../db/d97/class_document.html#ad263e199ab017c47f602054f5618dfad" title="Determine le nombre de sources du document.">getNbSource</a>();
+<a name="l00199"></a>00199    <span class="keywordtype">int</span> <a class="code" href="../../db/d97/class_document.html#a326a002635b1adb90feca02c8a7afa21" title="Determine le pourcentage du document plagie.">getPrCentPlagier</a>();
+<a name="l00206"></a>00206    QString <a class="code" href="../../db/d97/class_document.html#a24865b3c20531e992e1afcb5d2eb3231" title="Recupere la liste de toute les sources.">getListSource</a>();
+<a name="l00215"></a>00215    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a0f5bcd4826f6a9e5d99c82c5bfe4e581" title="Adapte le nombre de cible.">adaptNbCible</a>(<span class="keywordtype">int</span> prCent,<span class="keywordtype">int</span> maxReq,<span class="keywordtype">int</span> nbMotsParTest);
+<a name="l00221"></a>00221    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#ab7c98a3c34137c5d3430989b8c195ef9" title="Traite le dossier pour la section &amp;quot;Par Dossier&amp;quot;.">traiterEnvoieDossier</a>();
+<a name="l00222"></a>00222 
+<a name="l00223"></a>00223 <span class="keyword">private</span>:
+<a name="l00224"></a><a class="code" href="../../db/d97/class_document.html#af7fe996733994113d723ec2b6ab95782">00224</a>    QString <a class="code" href="../../db/d97/class_document.html#af7fe996733994113d723ec2b6ab95782">m_text</a>; 
+<a name="l00225"></a><a class="code" href="../../db/d97/class_document.html#a22bf691c294b16e75a8e356fd5104f5a">00225</a>    <a class="code" href="../../d9/ddb/class_extension.html" title="Classe Extension :">Extension</a> *<a class="code" href="../../db/d97/class_document.html#a22bf691c294b16e75a8e356fd5104f5a">m_file</a>; 
+<a name="l00226"></a><a class="code" href="../../db/d97/class_document.html#a2bdd41e622d3fd394851636f80fe5159">00226</a>    <span class="keywordtype">int</span> <a class="code" href="../../db/d97/class_document.html#a2bdd41e622d3fd394851636f80fe5159">m_indiceCible</a>[3]; 
+<a name="l00227"></a><a class="code" href="../../db/d97/class_document.html#a830b82f2d6b8ddb37a3edf514eca77fa">00227</a>    <span class="keywordtype">int</span> <a class="code" href="../../db/d97/class_document.html#a830b82f2d6b8ddb37a3edf514eca77fa">m_nbRequet</a>; 
+<a name="l00228"></a><a class="code" href="../../db/d97/class_document.html#af26e1d1609355f87b6f41443a11ecfc2">00228</a>    <span class="keywordtype">int</span> <a class="code" href="../../db/d97/class_document.html#af26e1d1609355f87b6f41443a11ecfc2">m_requet</a>; 
+<a name="l00229"></a><a class="code" href="../../db/d97/class_document.html#a1921e6cceacc6fdf1d726c63b6159579">00229</a>    <span class="keywordtype">bool</span> <a class="code" href="../../db/d97/class_document.html#a1921e6cceacc6fdf1d726c63b6159579">m_annuler</a>; 
+<a name="l00230"></a><a class="code" href="../../db/d97/class_document.html#ae263a5ed960ec25e277c1ba1f794de61">00230</a>    <a class="code" href="../../da/d37/class_list_text_cicble.html" title="Classe ListTextCicble :">ListTextCicble</a> <a class="code" href="../../db/d97/class_document.html#ae263a5ed960ec25e277c1ba1f794de61">m_textCible</a>; 
+<a name="l00231"></a><a class="code" href="../../db/d97/class_document.html#adbe937bb75b6fb4a4d972247da3b3366">00231</a>    QList&lt;MoteurRecherche*&gt; <a class="code" href="../../db/d97/class_document.html#adbe937bb75b6fb4a4d972247da3b3366">m_moteurRecherche</a>; 
+<a name="l00232"></a><a class="code" href="../../db/d97/class_document.html#a67a3b9e763645c320a5ad3717761254f">00232</a>    <a class="code" href="../../de/dab/class_ihm.html" title="Classe Ihm :">Ihm</a> *<a class="code" href="../../db/d97/class_document.html#a67a3b9e763645c320a5ad3717761254f">m_ihm</a>; 
+<a name="l00233"></a><a class="code" href="../../db/d97/class_document.html#a3aebb692f96baa2622cb196e66a8fb31">00233</a>    QDir <a class="code" href="../../db/d97/class_document.html#a3aebb692f96baa2622cb196e66a8fb31">m_dir</a>; 
+<a name="l00234"></a><a class="code" href="../../db/d97/class_document.html#a20d3f9955a2439b4d31e75e67f2ce555">00234</a>    QStringList <a class="code" href="../../db/d97/class_document.html#a20d3f9955a2439b4d31e75e67f2ce555">m_listFile</a>; 
+<a name="l00235"></a><a class="code" href="../../db/d97/class_document.html#a01c95d08ad31ec26576653dc641e1cc5">00235</a>    <span class="keywordtype">int</span> <a class="code" href="../../db/d97/class_document.html#a01c95d08ad31ec26576653dc641e1cc5">m_indiceListFile</a>; 
+<a name="l00238"></a>00238 <span class="keyword">public</span> slots:
+<a name="l00245"></a>00245    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a0f24e03aaa7a83dd8377b243c68fb832" title="Slot de traitement.">traiterReponse</a>(<span class="keywordtype">int</span> idMoteurRecherche);
+<a name="l00251"></a>00251    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a6a5cf6deda38c38ad63af7c51ec96214" title="Slot d&amp;#39;Annulation.">annulerTraitement</a>();
+<a name="l00258"></a>00258    <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#aebd3da3485e098fa519bff6ea965208e" title="Slot d&amp;#39;export en HTML.">exportHtml</a>(QString file);
+<a name="l00259"></a>00259 
+<a name="l00260"></a>00260 signals:
+<a name="l00264"></a>00264     <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#a919f9c5c249c9acf832ff4530ca09f01" title="Signal emit lorsque le traitement est fini.">traitementFini</a>();
+<a name="l00271"></a>00271     <span class="keywordtype">void</span> <a class="code" href="../../db/d97/class_document.html#ae4c8fb0f709af464f710ad51b9f3ed15" title="Signal emit lorsque la progression du traitement avance.">progress</a>(<span class="keywordtype">int</span> valeur,QString text = QString(<span class="stringliteral">&quot;&quot;</span>));
+<a name="l00272"></a>00272 
+<a name="l00273"></a>00273 };
+<a name="l00274"></a>00274 
+<a name="l00275"></a>00275 <span class="preprocessor">#endif  </span><span class="comment">/* DOCUMENT_H */</span>
+<a name="l00276"></a>00276 
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Définition de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Tue Mar 29 2011 19:05:51 pour Anti-Plagiat par&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.7.3 </small></address>
+</body>
+</html>

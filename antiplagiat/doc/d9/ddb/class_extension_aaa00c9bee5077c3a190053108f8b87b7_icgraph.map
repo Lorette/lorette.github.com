@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d8/d62/class_text_odt.html#a12187143b35075a44c7764d9ebbce15d" title="Decompresse l&#39;archive ODT." alt="" coords="173,5,320,35"/>
+<area shape="rect" id="node7" href="$d9/ddd/class_text_docx.html#a1147f090b079cf9f240967a2a89fac11" title="Decompresse l&#39;archive DOCX." alt="" coords="169,59,324,88"/>
+<area shape="rect" id="node11" href="$dd/d60/class_text_pdf.html#a1142239f4101a444af736d53c08195dd" title="Verifie si le fichier est valide, et extrait le texte du ficher." alt="" coords="183,112,311,141"/>
+<area shape="rect" id="node5" href="$d8/d62/class_text_odt.html#a1885e130ce26b7af89f713badc3f70a4" title="Verifie si le fichier est valide, et extrait le fichier xml de l&#39;archive." alt="" coords="379,5,509,35"/>
+<area shape="rect" id="node9" href="$d9/ddd/class_text_docx.html#a3a432ae882a8baf9ac6757265d547bbf" title="Verifie si le fichier est valide, et extrait le fichier xml de l&#39;archive." alt="" coords="375,59,513,88"/>
+</map>

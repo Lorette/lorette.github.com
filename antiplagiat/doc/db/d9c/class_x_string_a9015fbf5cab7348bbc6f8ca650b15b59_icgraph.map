@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d8/d62/class_text_odt.html#a39cb6807142b89e3a036d3a3322cb4dc" title="Trie le fichier content.xml en recuperant le texte en fonction des preferences de l&#39;utilisateur..." alt="" coords="197,5,283,35"/>
+<area shape="rect" id="node7" href="$d9/ddd/class_text_docx.html#af07143dde37cb867a6cce7b0168c6bf3" title="Trie le fichier document.xml en recuperant le texte en fonction des preferences de l&#39;utilisateur..." alt="" coords="192,59,288,88"/>
+<area shape="rect" id="node5" href="$d8/d62/class_text_odt.html#ab2b352464f4e84183edc464800a2647a" title="Retourne la liste des bouts de texte a tester, en fonction des preferences de l&#39;utilisateur." alt="" coords="341,5,464,35"/>
+<area shape="rect" id="node9" href="$d9/ddd/class_text_docx.html#a208568c341cc1d19c90ef54ad73bf09a" title="Retourne la liste des bouts de texte a tester, en fonction des preferences de l&#39;utilisateur." alt="" coords="337,59,468,88"/>
+</map>

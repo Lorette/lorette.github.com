@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Anti-Plagiat:  Fichier source de src/Headers/textCible.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Anti-Plagiat&#160;<span id="projectnumber">Version 1.0</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="../../globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>src/Headers/textCible.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="../../d9/dc5/text_cible_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/***********************************************************************</span>
+<a name="l00002"></a>00002 <span class="comment"> * Module:  TextCible.h</span>
+<a name="l00003"></a>00003 <span class="comment"> * Author:  RONGIARD Fabien</span>
+<a name="l00004"></a>00004 <span class="comment"> *          DUREUIL Brice</span>
+<a name="l00005"></a>00005 <span class="comment"> *          CRESSON Thomas</span>
+<a name="l00006"></a>00006 <span class="comment"> *          NAJAR Soufiene</span>
+<a name="l00007"></a>00007 <span class="comment"> *          FATNI Elkhader</span>
+<a name="l00008"></a>00008 <span class="comment"> * Modified: vendredi 26 mars 2011 16:46:28</span>
+<a name="l00009"></a>00009 <span class="comment"> * Purpose: Declaration of the class TextCible</span>
+<a name="l00010"></a>00010 <span class="comment"> ***********************************************************************/</span>
+<a name="l00011"></a>00011 
+<a name="l00012"></a>00012 <span class="preprocessor">#ifndef TEXTCIBLE_H</span>
+<a name="l00013"></a>00013 <span class="preprocessor"></span><span class="preprocessor">#define TEXTCIBLE_H</span>
+<a name="l00014"></a>00014 <span class="preprocessor"></span>
+<a name="l00027"></a>00027 <span class="preprocessor">#include &lt;QObject&gt;</span>
+<a name="l00028"></a>00028 <span class="preprocessor">#include &lt;QString&gt;</span>
+<a name="l00029"></a>00029 <span class="preprocessor">#include &lt;QStringList&gt;</span>
+<a name="l00030"></a>00030 <span class="preprocessor">#include &lt;QList&gt;</span>
+<a name="l00031"></a>00031 
+<a name="l00038"></a><a class="code" href="../../d9/db5/class_text_cible.html">00038</a> <span class="keyword">class </span><a class="code" href="../../d9/db5/class_text_cible.html" title="Classe TextCible :">TextCible</a>
+<a name="l00039"></a>00039 {
+<a name="l00040"></a>00040 <span class="keyword">public</span>:
+<a name="l00047"></a>00047     <a class="code" href="../../d9/db5/class_text_cible.html#aa561854b0beb3b5f8195343788e2d213" title="Constructeur.">TextCible</a>(QString text);
+<a name="l00053"></a>00053     <a class="code" href="../../d9/db5/class_text_cible.html#adb91f3fea9de9b0bea14d14f878ac910" title="Destructeur.">~TextCible</a>();
+<a name="l00061"></a>00061     <span class="keywordtype">void</span> <a class="code" href="../../d9/db5/class_text_cible.html#ac3275e5044900a3a9e39e548857793ee" title="Ajoute le r�sultat d&amp;#39;un moteur de recherche.">setResult</a>(<span class="keywordtype">bool</span> plagier,QString url,<span class="keywordtype">int</span> idMoteurRecherche = 0);
+<a name="l00067"></a>00067     QString <a class="code" href="../../d9/db5/class_text_cible.html#a27b90dbf5b67f4c39c384abdbd7ec5a5" title="Retourne le texte a tester.">getText</a>();
+<a name="l00073"></a>00073     <span class="keywordtype">bool</span> <a class="code" href="../../d9/db5/class_text_cible.html#a196045f4b748efd1f7076f8aa61914f2" title="Determine d&amp;#39;apres l&amp;#39;ensemble des resultat, si le texte est plagie.">isPlagier</a>();
+<a name="l00080"></a>00080     QString <a class="code" href="../../d9/db5/class_text_cible.html#a3320dbb0109a225ecd7e671f294ebc75" title="Retourne l&amp;#39;ULR d&amp;#39;ou provient le texte.">getUrl</a>();
+<a name="l00081"></a>00081 
+<a name="l00082"></a>00082 <span class="keyword">private</span>:
+<a name="l00083"></a><a class="code" href="../../d9/db5/class_text_cible.html#a2cc9785526c54f231937aad4df0727cc">00083</a>     QString <a class="code" href="../../d9/db5/class_text_cible.html#a2cc9785526c54f231937aad4df0727cc">m_text</a>; 
+<a name="l00084"></a><a class="code" href="../../d9/db5/class_text_cible.html#af677076beafd8e9edee9bda64b686b34">00084</a>     QStringList <a class="code" href="../../d9/db5/class_text_cible.html#af677076beafd8e9edee9bda64b686b34">m_url</a>; 
+<a name="l00085"></a><a class="code" href="../../d9/db5/class_text_cible.html#a781bd32d95e6bfe6fafbeef3a346359b">00085</a>     QList&lt;bool&gt; <a class="code" href="../../d9/db5/class_text_cible.html#a781bd32d95e6bfe6fafbeef3a346359b">m_plagier</a>; 
+<a name="l00086"></a><a class="code" href="../../d9/db5/class_text_cible.html#a396c89a1c0f22e07a775248b76718aed">00086</a>     QList&lt;int&gt; <a class="code" href="../../d9/db5/class_text_cible.html#a396c89a1c0f22e07a775248b76718aed">m_IdMoteurRecherche</a>; 
+<a name="l00087"></a>00087 };
+<a name="l00088"></a>00088 
+<a name="l00089"></a>00089 <span class="preprocessor">#endif </span><span class="comment">/* TEXTCIBLE_H */</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Définition de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Tue Mar 29 2011 19:05:51 pour Anti-Plagiat par&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.7.3 </small></address>
+</body>
+</html>

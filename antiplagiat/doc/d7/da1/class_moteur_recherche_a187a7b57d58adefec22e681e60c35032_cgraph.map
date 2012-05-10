@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d7/da1/class_moteur_recherche.html#a23c50ed6fd09a65940951b91d6820af1" title="Slot pour une requete qui c&#39;est terminer avec une erreur." alt="" coords="263,5,476,35"/>
+<area shape="rect" id="node7" href="$d7/da1/class_moteur_recherche.html#a2efd50589c4f7497bf4c4105592ab764" title="Slot pour une requete qui c&#39;est terminer sans erreur." alt="" coords="259,59,480,88"/>
+<area shape="rect" id="node5" href="$d7/da1/class_moteur_recherche.html#afa3e66f9c752e666cd9a418a0a8b0385" title="Signal emit lorsque la requete c&#39;est terminer avec une erreur." alt="" coords="529,5,735,35"/>
+<area shape="rect" id="node9" href="$d7/da1/class_moteur_recherche.html#a27982f6943bcdcf976ee67265ecee343" title="Signal emit lorsque la requete est terminer et sans erreur." alt="" coords="537,59,727,88"/>
+</map>

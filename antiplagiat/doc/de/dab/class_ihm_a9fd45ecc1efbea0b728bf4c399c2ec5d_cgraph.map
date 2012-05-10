@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$de/dab/class_ihm.html#aa9711d00c190c457b7db5bfbbf7bd290" title="Slot pour arreter le traitement." alt="" coords="163,5,317,35"/>
+<area shape="rect" id="node5" href="$de/dab/class_ihm.html#a037fe2253881056fe2bc2a7970ac7d23" title="Active/Desactive l&#39;interaction utilisateur." alt="" coords="419,32,549,61"/>
+<area shape="rect" id="node8" href="$de/dab/class_ihm.html#aa89a68f1367a1ef42c48867152287fca" title="Recupere l&#39;onglet utilise." alt="" coords="189,109,291,139"/>
+<area shape="rect" id="node10" href="$db/d97/class_document.html#af73fc5a62045332348f529e7f185e455" title="Retourne le document enrichie avec du HTML/CSS." alt="" coords="137,163,343,192"/>
+<area shape="rect" id="node16" href="$db/d97/class_document.html#a24865b3c20531e992e1afcb5d2eb3231" title="Recupere la liste de toute les sources." alt="" coords="156,216,324,245"/>
+<area shape="rect" id="node18" href="$db/d97/class_document.html#ad263e199ab017c47f602054f5618dfad" title="Determine le nombre de sources du document." alt="" coords="159,269,321,299"/>
+<area shape="rect" id="node20" href="$db/d97/class_document.html#a326a002635b1adb90feca02c8a7afa21" title="Determine le pourcentage du document plagie." alt="" coords="147,323,333,352"/>
+<area shape="rect" id="node22" href="$db/d97/class_document.html#aeb90ae8a79b6b0d7340428b143e19d41" title="Pour la section &quot;Par phrase&quot; retourne l&#39;URL d&#39;ou provient le texte." alt="" coords="147,376,333,405"/>
+<area shape="rect" id="node24" href="$d0/d86/class_ihm_popup.html#a7eb0f68a584c9b15e56a64794dcb92e5" title="Affiche une fenetre contenant le resultat du traitement." alt="" coords="180,429,300,459"/>
+<area shape="rect" id="node32" href="$db/d97/class_document.html#aae7aac60d4f8617f6404f04197c664b0" title="Pour la section &quot;Par phrase&quot; determine si cette phrase est plagie." alt="" coords="160,483,320,512"/>
+<area shape="rect" id="node12" href="$db/d97/class_document.html#aec5b2eada43b88cf01b09bf4d04ab593" title="Renvoi une liste de toute les Cible plagier sur la meme source." alt="" coords="392,136,576,165"/>
+<area shape="rect" id="node14" href="$db/d97/class_document.html#ae4c8fb0f709af464f710ad51b9f3ed15" title="Signal emit lorsque la progression du traitement avance." alt="" coords="415,189,553,219"/>
+<area shape="rect" id="node26" href="$d0/d86/class_ihm_popup.html#a1a151396125337b84a98382759182770" title="Slot pour changer le mode de couleur du texte." alt="" coords="403,403,565,432"/>
+<area shape="rect" id="node28" href="$d0/d86/class_ihm_popup.html#ab5dd926ce727b61c54ac1b73fad42a31" title="Slot pour exporter le resultat en HTML." alt="" coords="395,456,573,485"/>
+<area shape="rect" id="node30" href="$d0/d86/class_ihm_popup.html#aece9ffce39c93c6754606ac5ab6c6aab" title="Signal emit lorsque l&#39;utilisateur veut exporter le resultat en HTML." alt="" coords="625,456,775,485"/>
+</map>

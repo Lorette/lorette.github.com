@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d0/d86/class_ihm_popup.html#ab5dd926ce727b61c54ac1b73fad42a31" title="Slot pour exporter le resultat en HTML." alt="" coords="207,5,385,35"/>
+<area shape="rect" id="node5" href="$d0/d86/class_ihm_popup.html#a7eb0f68a584c9b15e56a64794dcb92e5" title="Affiche une fenetre contenant le resultat du traitement." alt="" coords="435,5,555,35"/>
+<area shape="rect" id="node7" href="$de/dab/class_ihm.html#a9fd45ecc1efbea0b728bf4c399c2ec5d" title="Slot pour afficher un resultat." alt="" coords="603,5,685,35"/>
+<area shape="rect" id="node9" href="$de/dab/class_ihm.html#a73da4abb548d533786f24439183ef70c" title="Verifie les conditions necessaires au lancement de la recherche." alt="" coords="733,5,859,35"/>
+<area shape="rect" id="node11" href="$de/dab/class_ihm.html#a9dc8653453adffab7805f05348359be4" title="Slot pour lancer le traitement." alt="" coords="907,5,1016,35"/>
+<area shape="rect" id="node13" href="$de/dab/class_ihm.html#aa57d8072d3eb7b224859ee10e57fae78" title="Constructeur." alt="" coords="1064,5,1136,35"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/d97/class_document.html#a7eeba16ca1178c6849bc439884e4e6c4" title="Initialise les varaible, object et determine les cible." alt="" coords="467,379,624,408"/>
+<area shape="rect" id="node37" href="$de/dab/class_ihm.html#a61b48d12b0d2876bfd9a81c4e126e257" title="Verifie si un moteur de recherche est selectionne." alt="" coords="755,643,853,672"/>
+<area shape="rect" id="node47" href="$db/d97/class_document.html#aadd899b4dd21aa3b9cd8a142e23c9d0d" title="Traite l&#39;envoi le la prochaine requete." alt="" coords="235,797,395,827"/>
+<area shape="rect" id="node5" href="$db/d97/class_document.html#a0f5bcd4826f6a9e5d99c82c5bfe4e581" title="Adapte le nombre de cible." alt="" coords="721,272,887,301"/>
+<area shape="rect" id="node7" href="$db/d97/class_document.html#aa15cdc8995dd89316337239f31a18059" title="Determine les bouts de texte a teste pour la section &quot;Par paragraphe&quot;." alt="" coords="708,325,900,355"/>
+<area shape="rect" id="node9" href="$db/d97/class_document.html#a80db3b431896ac51855b7763e4cba37c" title="Determine les bouts de texte a tester pour la section &quot;Par Document&quot; et &quot;Par Dossier&amp;q..." alt="" coords="697,112,911,141"/>
+<area shape="rect" id="node13" href="$de/dab/class_ihm.html#aa89a68f1367a1ef42c48867152287fca" title="Recupere l&#39;onglet utilise." alt="" coords="1000,669,1101,699"/>
+<area shape="rect" id="node15" href="$de/dab/class_ihm.html#a5cf36ee5370e8b077a10538d895dc6ff" title="Recupere le texte dans le cas d&#39;une entree par paragraphe." alt="" coords="740,5,868,35"/>
+<area shape="rect" id="node17" href="$de/dab/class_ihm.html#a368da62012e89b0721d80ad274d78e60" title="Recupere le nombre de mots envoye par requete." alt="" coords="747,432,861,461"/>
+<area shape="rect" id="node21" href="$de/dab/class_ihm.html#ae011630e1a5ce3b62d487cad011c8168" title="Verifie la selection par police." alt="" coords="741,485,867,515"/>
+<area shape="rect" id="node25" href="$de/dab/class_ihm.html#a837e99b1f14b30571b433065819c8659" title="Verifie la selection par taille." alt="" coords="745,539,863,568"/>
+<area shape="rect" id="node29" href="$de/dab/class_ihm.html#ac095b679b10371ded382829e3c9dd3e6" title="Recupere le pourcentage de document a tester." alt="" coords="727,59,881,88"/>
+<area shape="rect" id="node33" href="$d9/ddb/class_extension.html#a00f336ff69e7a2d9da5c411346af548e" title="A reimplementer selon le moteur de recherche utilise." alt="" coords="739,165,869,195"/>
+<area shape="rect" id="node35" href="$de/dab/class_ihm.html#a34f168c901bf6365505f988e5efcc237" title="Recupere la phrase dans le cas d&#39;une entree par phrase." alt="" coords="757,219,851,248"/>
+<area shape="rect" id="node40" href="$de/dab/class_ihm.html#a899d4d6dea93e95ba48e1a8557666e0b" title="Recupere le nombre maximum de requete." alt="" coords="735,379,873,408"/>
+<area shape="rect" id="node44" href="$db/d97/class_document.html#ae4c8fb0f709af464f710ad51b9f3ed15" title="Signal emit lorsque la progression du traitement avance." alt="" coords="735,747,873,776"/>
+<area shape="rect" id="node11" href="$d9/ddb/class_extension.html#ae5c5b82f276ab55d44b80832e5209010" title="A reimplementer selon le moteur de recherche utilise." alt="" coords="984,112,1117,141"/>
+<area shape="rect" id="node19" href="$db/d2b/class_settings.html#a996387a2c875f699345eb3df8c2584fb" title="Retourne le nombre de mots." alt="" coords="980,432,1121,461"/>
+<area shape="rect" id="node23" href="$db/d2b/class_settings.html#a067407ecd06393e10c9003a321dfdbe3" title="Retourne le choix de l&#39;utilisateur pour la selection par police." alt="" coords="975,485,1127,515"/>
+<area shape="rect" id="node27" href="$db/d2b/class_settings.html#a154e35cda73398b873fc225207b569a4" title="Retourne le choix de l&#39;utilisateur pour la selection par taille." alt="" coords="977,539,1124,568"/>
+<area shape="rect" id="node31" href="$db/d2b/class_settings.html#a0be644ac3a1164e4a1968ac9d83bb0c5" title="Retourne le pourcentage du texte a tester." alt="" coords="960,59,1141,88"/>
+<area shape="rect" id="node42" href="$db/d2b/class_settings.html#a453fa7e9d6fcdd2fc565f5e555d7b630" title="Retourne le nombre de requete maximum." alt="" coords="968,379,1133,408"/>
+<area shape="rect" id="node49" href="$db/d97/class_document.html#aebd3da3485e098fa519bff6ea965208e" title="Slot d&#39;export en HTML." alt="" coords="469,1008,621,1037"/>
+<area shape="rect" id="node60" href="$db/d97/class_document.html#a2906f7e1c51bac1b13112fef75496688" title="Retourne le texte du document." alt="" coords="480,797,611,827"/>
+<area shape="rect" id="node63" href="$db/d97/class_document.html#a919f9c5c249c9acf832ff4530ca09f01" title="Signal emit lorsque le traitement est fini." alt="" coords="720,848,888,877"/>
+<area shape="rect" id="node65" href="$db/d97/class_document.html#ab7c98a3c34137c5d3430989b8c195ef9" title="Traite le dossier pour la section &quot;Par Dossier&quot;." alt="" coords="444,901,647,931"/>
+<area shape="rect" id="node51" href="$db/d97/class_document.html#a24865b3c20531e992e1afcb5d2eb3231" title="Recupere la liste de toute les sources." alt="" coords="720,1061,888,1091"/>
+<area shape="rect" id="node53" href="$db/d97/class_document.html#aec5b2eada43b88cf01b09bf4d04ab593" title="Renvoi une liste de toute les Cible plagier sur la meme source." alt="" coords="712,1115,896,1144"/>
+<area shape="rect" id="node55" href="$db/d97/class_document.html#ad263e199ab017c47f602054f5618dfad" title="Determine le nombre de sources du document." alt="" coords="723,955,885,984"/>
+<area shape="rect" id="node57" href="$db/d97/class_document.html#a326a002635b1adb90feca02c8a7afa21" title="Determine le pourcentage du document plagie." alt="" coords="711,1008,897,1037"/>
+<area shape="rect" id="node68" href="$db/d97/class_document.html#a0f8bf15df9cb2e47bdd5f237c0223bd9" title="Initialise le fichier a traiter, et teste si il est valide." alt="" coords="740,901,868,931"/>
+<area shape="rect" id="node70" href="$d9/ddb/class_extension.html#aa46be457653f12dcfb527917d1e158d7" title="A reimplementer selon le moteur de recherche utilise." alt="" coords="980,901,1121,931"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d7/da1/class_moteur_recherche.html#a2efd50589c4f7497bf4c4105592ab764" title="Slot pour une requete qui c&#39;est terminer sans erreur." alt="" coords="243,59,464,88"/>
+<area shape="rect" id="node5" href="$d7/da1/class_moteur_recherche.html#a187a7b57d58adefec22e681e60c35032" title="Envoie une requete HTTP." alt="" coords="513,59,716,88"/>
+<area shape="rect" id="node7" href="$d6/db9/class_yahoo.html#a923ddda6d9979b417eb918f6275615d4" title="Envoie la requete." alt="" coords="768,5,909,35"/>
+<area shape="rect" id="node9" href="$d7/d4b/class_google.html#ae9e4bcd1e8d3e9c86a4c6fa1255409af" title="Envoie la requete." alt="" coords="765,59,912,88"/>
+<area shape="rect" id="node11" href="$dc/d84/class_bing.html#a4d79f20200c07bcd10b49845868c12ef" title="Envoie la requete." alt="" coords="773,112,904,141"/>
+</map>

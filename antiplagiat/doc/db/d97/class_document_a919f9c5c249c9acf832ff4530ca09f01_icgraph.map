@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/d97/class_document.html#a0aa78f7aef5ff16008587df73f2b7b6b" title="Constructeur." alt="" coords="688,5,835,35"/>
+<area shape="rect" id="node5" href="$db/d97/class_document.html#aadd899b4dd21aa3b9cd8a142e23c9d0d" title="Traite l&#39;envoi le la prochaine requete." alt="" coords="221,84,381,113"/>
+<area shape="rect" id="node13" href="$db/d97/class_document.html#ab7c98a3c34137c5d3430989b8c195ef9" title="Traite le dossier pour la section &quot;Par Dossier&quot;." alt="" coords="660,136,863,165"/>
+<area shape="rect" id="node7" href="$db/d97/class_document.html#ac5abbb6b4c81cb4a4fc90aa78faeba65" title="Traitement complet du document." alt="" coords="429,84,611,113"/>
+<area shape="rect" id="node19" href="$db/d97/class_document.html#a0f24e03aaa7a83dd8377b243c68fb832" title="Slot de traitement." alt="" coords="433,31,607,60"/>
+<area shape="rect" id="node9" href="$de/dab/class_ihm.html#a9dc8653453adffab7805f05348359be4" title="Slot pour lancer le traitement." alt="" coords="1128,111,1237,140"/>
+<area shape="rect" id="node11" href="$de/dab/class_ihm.html#aa57d8072d3eb7b224859ee10e57fae78" title="Constructeur." alt="" coords="1285,111,1357,140"/>
+<area shape="rect" id="node15" href="$db/d97/class_document.html#a09264b30a5908a15c5e226400e2d8260" title="Traitement complet d&#39;un dossier." alt="" coords="913,136,1079,165"/>
+</map>

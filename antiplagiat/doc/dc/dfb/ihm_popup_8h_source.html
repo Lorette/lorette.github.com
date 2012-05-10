@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Anti-Plagiat:  Fichier source de src/Headers/ihmPopup.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Généré par Doxygen 1.7.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Anti-Plagiat&#160;<span id="projectnumber">Version 1.0</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.html"><span>Fichiers</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="../../globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<h1>src/Headers/ihmPopup.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="../../dc/dfb/ihm_popup_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/***********************************************************************</span>
+<a name="l00002"></a>00002 <span class="comment"> * Module:  IhmPopup.h</span>
+<a name="l00003"></a>00003 <span class="comment"> * Author:  RONGIARD Fabien</span>
+<a name="l00004"></a>00004 <span class="comment"> *          DUREUIL Brice</span>
+<a name="l00005"></a>00005 <span class="comment"> *          CRESSON Thomas</span>
+<a name="l00006"></a>00006 <span class="comment"> *          NAJAR Soufiene</span>
+<a name="l00007"></a>00007 <span class="comment"> *          FATNI Elkhader</span>
+<a name="l00008"></a>00008 <span class="comment"> * Modified: vendredi 26 mars 2011 16:46:28</span>
+<a name="l00009"></a>00009 <span class="comment"> * Purpose: Declaration of the class IhmPopup</span>
+<a name="l00010"></a>00010 <span class="comment"> ***********************************************************************/</span>
+<a name="l00011"></a>00011 
+<a name="l00012"></a>00012 
+<a name="l00013"></a>00013 <span class="preprocessor">#ifndef IHMPOPUP_H</span>
+<a name="l00014"></a>00014 <span class="preprocessor"></span><span class="preprocessor">#define IHMPOPUP_H</span>
+<a name="l00015"></a>00015 <span class="preprocessor"></span>
+<a name="l00028"></a>00028 <span class="preprocessor">#include &lt;QWidget&gt;</span>
+<a name="l00029"></a>00029 <span class="preprocessor">#include &lt;QFileDialog&gt;</span>
+<a name="l00030"></a>00030 <span class="preprocessor">#include &quot;ui_progress.h&quot;</span>
+<a name="l00031"></a>00031 <span class="preprocessor">#include &quot;ui_resultat.h&quot;</span>
+<a name="l00032"></a>00032 
+<a name="l00039"></a><a class="code" href="../../d0/d86/class_ihm_popup.html">00039</a> <span class="keyword">class </span><a class="code" href="../../d0/d86/class_ihm_popup.html" title="Classe IhmPopup :">IhmPopup</a> : <span class="keyword">public</span> QWidget
+<a name="l00040"></a>00040 {
+<a name="l00041"></a>00041     Q_OBJECT
+<a name="l00042"></a>00042 
+<a name="l00043"></a>00043 <span class="keyword">public</span>:
+<a name="l00050"></a>00050     <span class="keyword">explicit</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#ac1deae48615336f688db0a6a07b75f05" title="Constructeur.">IhmPopup</a>(QWidget *parent = 0);
+<a name="l00056"></a>00056     <a class="code" href="../../d0/d86/class_ihm_popup.html#a339c39d03ed5abdbc146e1bc54b4702b" title="Destructeur.">~IhmPopup</a>();
+<a name="l00061"></a>00061     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#af884eec49404b2989db5a349ea48c05a" title="Initialise l&amp;#39;affichage de la barre de progression.">startDL</a>();
+<a name="l00071"></a>00071     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#a7eb0f68a584c9b15e56a64794dcb92e5" title="Affiche une fenetre contenant le resultat du traitement.">result</a>(QString text1,QString text2,QString listSource,<span class="keywordtype">int</span> nbSource,<span class="keywordtype">int</span> prCenPlagier);
+<a name="l00072"></a>00072 
+<a name="l00073"></a>00073 <span class="keyword">public</span> slots:
+<a name="l00080"></a>00080     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#a1db973dc3ef0c6be797358b72dab6dc6" title="Slot pour modifier la barre de progression.">progressDL</a>(<span class="keywordtype">int</span> valeur,QString text);
+<a name="l00085"></a>00085     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#ac6004a619ff1e6f00a8535646b81347b" title="Slot pour annuler le traitement en cours.">clickAnnuler</a>();
+<a name="l00090"></a>00090     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#a1a151396125337b84a98382759182770" title="Slot pour changer le mode de couleur du texte.">changeMode</a>();
+<a name="l00095"></a>00095     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#ab5dd926ce727b61c54ac1b73fad42a31" title="Slot pour exporter le resultat en HTML.">clickExportHtml</a>();
+<a name="l00100"></a>00100     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#ae75a7bd5774c5cf9e8acb2a1ba7dd04e" title="Event pour le changement de langue.">changeEvent</a>(QEvent *event);
+<a name="l00101"></a>00101 
+<a name="l00102"></a>00102 signals:
+<a name="l00107"></a>00107     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#a862218b543ba3eafeab40a63b1aedce3" title="Signal emit lorsque l&amp;#39;utilisateur click sur le boutton pour annuler le traitement.">annuler</a>();
+<a name="l00113"></a>00113     <span class="keywordtype">void</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#aece9ffce39c93c6754606ac5ab6c6aab" title="Signal emit lorsque l&amp;#39;utilisateur veut exporter le resultat en HTML.">exportHtml</a>(QString file);
+<a name="l00114"></a>00114 
+<a name="l00115"></a>00115 <span class="keyword">private</span>:
+<a name="l00116"></a><a class="code" href="../../d0/d86/class_ihm_popup.html#aa7fbf1894d54364f9635c611eb714172">00116</a>     Ui::Progress *<a class="code" href="../../d0/d86/class_ihm_popup.html#aa7fbf1894d54364f9635c611eb714172">ui</a>; 
+<a name="l00117"></a><a class="code" href="../../d0/d86/class_ihm_popup.html#abee4783f5b76f9b0da82a610d711b131">00117</a>     Ui::Resultat *<a class="code" href="../../d0/d86/class_ihm_popup.html#abee4783f5b76f9b0da82a610d711b131">ui2</a>; 
+<a name="l00118"></a><a class="code" href="../../d0/d86/class_ihm_popup.html#abca73eeb955767c599c9e207b3dd201c">00118</a>     QString <a class="code" href="../../d0/d86/class_ihm_popup.html#abca73eeb955767c599c9e207b3dd201c">m_text1</a>; 
+<a name="l00119"></a><a class="code" href="../../d0/d86/class_ihm_popup.html#a4ec0f8f46ae1ee45209201a30e919721">00119</a>     QString <a class="code" href="../../d0/d86/class_ihm_popup.html#a4ec0f8f46ae1ee45209201a30e919721">m_text2</a>; 
+<a name="l00120"></a><a class="code" href="../../d0/d86/class_ihm_popup.html#a133118af4e100d810e8d3319d6a03168">00120</a>     <span class="keywordtype">int</span> <a class="code" href="../../d0/d86/class_ihm_popup.html#a133118af4e100d810e8d3319d6a03168">m_idText</a>; 
+<a name="l00122"></a>00122 };
+<a name="l00123"></a>00123 
+<a name="l00124"></a>00124 <span class="preprocessor">#endif </span><span class="comment">/* IHMPOPUP_H */</span>
+</pre></div></div>
+</div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Définition de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Généré le Tue Mar 29 2011 19:05:51 pour Anti-Plagiat par&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.7.3 </small></address>
+</body>
+</html>

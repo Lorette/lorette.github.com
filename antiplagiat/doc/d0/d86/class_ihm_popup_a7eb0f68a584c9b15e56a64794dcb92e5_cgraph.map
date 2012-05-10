@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d0/d86/class_ihm_popup.html#a1a151396125337b84a98382759182770" title="Slot pour changer le mode de couleur du texte." alt="" coords="183,5,345,35"/>
+<area shape="rect" id="node5" href="$d0/d86/class_ihm_popup.html#ab5dd926ce727b61c54ac1b73fad42a31" title="Slot pour exporter le resultat en HTML." alt="" coords="175,59,353,88"/>
+<area shape="rect" id="node7" href="$d0/d86/class_ihm_popup.html#aece9ffce39c93c6754606ac5ab6c6aab" title="Signal emit lorsque l&#39;utilisateur veut exporter le resultat en HTML." alt="" coords="404,59,553,88"/>
+</map>

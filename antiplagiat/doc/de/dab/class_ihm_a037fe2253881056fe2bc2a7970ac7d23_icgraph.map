@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$de/dab/class_ihm.html#aa9711d00c190c457b7db5bfbbf7bd290" title="Slot pour arreter le traitement." alt="" coords="187,56,341,85"/>
+<area shape="rect" id="node5" href="$de/dab/class_ihm.html#a9fd45ecc1efbea0b728bf4c399c2ec5d" title="Slot pour afficher un resultat." alt="" coords="389,5,472,35"/>
+<area shape="rect" id="node9" href="$de/dab/class_ihm.html#a9dc8653453adffab7805f05348359be4" title="Slot pour lancer le traitement." alt="" coords="693,57,803,87"/>
+<area shape="rect" id="node7" href="$de/dab/class_ihm.html#a73da4abb548d533786f24439183ef70c" title="Verifie les conditions necessaires au lancement de la recherche." alt="" coords="520,5,645,35"/>
+<area shape="rect" id="node11" href="$de/dab/class_ihm.html#aa57d8072d3eb7b224859ee10e57fae78" title="Constructeur." alt="" coords="851,57,923,87"/>
+</map>

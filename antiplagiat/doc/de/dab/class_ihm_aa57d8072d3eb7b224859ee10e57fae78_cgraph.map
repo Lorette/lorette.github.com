@@ -1,0 +1,51 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$de/dab/class_ihm.html#aec634094ba47f66e2d350e66c50a487f" title="Slot pour afficher les informations sur le programme." alt="" coords="144,5,243,35"/>
+<area shape="rect" id="node5" href="$de/dab/class_ihm.html#aecdde8b6703ee31ec5f2bc2fc72a2197" title="Slot pour afficher la documentation." alt="" coords="125,59,261,88"/>
+<area shape="rect" id="node7" href="$de/dab/class_ihm.html#a817d6455cb9a80c0edc85ab40b5d40f4" title="Slot pour afficher les options." alt="" coords="139,112,248,141"/>
+<area shape="rect" id="node9" href="$de/dab/class_ihm.html#aa9624f9a338e6d9f396325fc472745a8" title="Slot pour selectionner un dossier." alt="" coords="143,165,244,195"/>
+<area shape="rect" id="node11" href="$de/dab/class_ihm.html#a17ae1ccc6b2581640fab9add0571ea95" title="Slot pour selectionner un fichier." alt="" coords="347,144,453,173"/>
+<area shape="rect" id="node19" href="$de/dab/class_ihm.html#a78089301702ebd6e217ee057290316e9" title="Slot de traduction Arabe." alt="" coords="133,269,253,299"/>
+<area shape="rect" id="node21" href="$de/dab/class_ihm.html#a8c6af336e9a4cb83c09efc0a6d88a063" title="Slot de traduction Allemand." alt="" coords="132,323,255,352"/>
+<area shape="rect" id="node23" href="$de/dab/class_ihm.html#aa4496a31b770c829c6028b54189accf8" title="Slot de traduction Anglais." alt="" coords="132,376,255,405"/>
+<area shape="rect" id="node25" href="$de/dab/class_ihm.html#aba1927be9b35a377245c2e0e12b1244b" title="Slot de traduction Espagnol." alt="" coords="132,429,255,459"/>
+<area shape="rect" id="node27" href="$de/dab/class_ihm.html#a515d4485111f33d566284e094210a58e" title="Slot de traduction Francais." alt="" coords="133,483,253,512"/>
+<area shape="rect" id="node29" href="$de/dab/class_ihm.html#a0fafb8f843b4ea729d2191483476ccef" title="Slot de traduction Italien." alt="" coords="136,536,251,565"/>
+<area shape="rect" id="node31" href="$de/dab/class_ihm.html#a9dc8653453adffab7805f05348359be4" title="Slot pour lancer le traitement." alt="" coords="139,625,248,655"/>
+<area shape="rect" id="node13" href="$db/d97/class_document.html#a0f8bf15df9cb2e47bdd5f237c0223bd9" title="Initialise le fichier a traiter, et teste si il est valide." alt="" coords="1047,233,1175,263"/>
+<area shape="rect" id="node15" href="$d9/ddb/class_extension.html#aa46be457653f12dcfb527917d1e158d7" title="A reimplementer selon le moteur de recherche utilise." alt="" coords="1268,233,1409,263"/>
+<area shape="rect" id="node17" href="$de/dab/class_ihm.html#aa89a68f1367a1ef42c48867152287fca" title="Recupere l&#39;onglet utilise." alt="" coords="1288,799,1389,828"/>
+<area shape="rect" id="node33" href="$de/dab/class_ihm.html#aa9711d00c190c457b7db5bfbbf7bd290" title="Slot pour arreter le traitement." alt="" coords="773,183,928,212"/>
+<area shape="rect" id="node35" href="$de/dab/class_ihm.html#a037fe2253881056fe2bc2a7970ac7d23" title="Active/Desactive l&#39;interaction utilisateur." alt="" coords="1045,180,1176,209"/>
+<area shape="rect" id="node38" href="$de/dab/class_ihm.html#a73da4abb548d533786f24439183ef70c" title="Verifie les conditions necessaires au lancement de la recherche." alt="" coords="337,465,463,495"/>
+<area shape="rect" id="node63" href="$d0/d86/class_ihm_popup.html#af884eec49404b2989db5a349ea48c05a" title="Initialise l&#39;affichage de la barre de progression." alt="" coords="335,1592,465,1621"/>
+<area shape="rect" id="node69" href="$db/d97/class_document.html#ac5abbb6b4c81cb4a4fc90aa78faeba65" title="Traitement complet du document." alt="" coords="309,833,491,863"/>
+<area shape="rect" id="node115" href="$db/d97/class_document.html#a09264b30a5908a15c5e226400e2d8260" title="Traitement complet d&#39;un dossier." alt="" coords="317,644,483,673"/>
+<area shape="rect" id="node41" href="$de/dab/class_ihm.html#a9fd45ecc1efbea0b728bf4c399c2ec5d" title="Slot pour afficher un resultat." alt="" coords="577,465,660,495"/>
+<area shape="rect" id="node46" href="$db/d97/class_document.html#af73fc5a62045332348f529e7f185e455" title="Retourne le document enrichie avec du HTML/CSS." alt="" coords="748,700,953,729"/>
+<area shape="rect" id="node50" href="$db/d97/class_document.html#a24865b3c20531e992e1afcb5d2eb3231" title="Recupere la liste de toute les sources." alt="" coords="1027,477,1195,507"/>
+<area shape="rect" id="node52" href="$db/d97/class_document.html#ad263e199ab017c47f602054f5618dfad" title="Determine le nombre de sources du document." alt="" coords="1029,621,1192,651"/>
+<area shape="rect" id="node54" href="$db/d97/class_document.html#a326a002635b1adb90feca02c8a7afa21" title="Determine le pourcentage du document plagie." alt="" coords="1017,681,1204,711"/>
+<area shape="rect" id="node56" href="$db/d97/class_document.html#aeb90ae8a79b6b0d7340428b143e19d41" title="Pour la section &quot;Par phrase&quot; retourne l&#39;URL d&#39;ou provient le texte." alt="" coords="757,439,944,468"/>
+<area shape="rect" id="node58" href="$d0/d86/class_ihm_popup.html#a7eb0f68a584c9b15e56a64794dcb92e5" title="Affiche une fenetre contenant le resultat du traitement." alt="" coords="791,492,911,521"/>
+<area shape="rect" id="node60" href="$db/d97/class_document.html#aae7aac60d4f8617f6404f04197c664b0" title="Pour la section &quot;Par phrase&quot; determine si cette phrase est plagie." alt="" coords="771,545,931,575"/>
+<area shape="rect" id="node48" href="$db/d97/class_document.html#ae4c8fb0f709af464f710ad51b9f3ed15" title="Signal emit lorsque la progression du traitement avance." alt="" coords="1041,747,1180,776"/>
+<area shape="rect" id="node65" href="$d0/d86/class_ihm_popup.html#ac6004a619ff1e6f00a8535646b81347b" title="Slot pour annuler le traitement en cours." alt="" coords="540,1592,697,1621"/>
+<area shape="rect" id="node67" href="$d0/d86/class_ihm_popup.html#a862218b543ba3eafeab40a63b1aedce3" title="Signal emit lorsque l&#39;utilisateur click sur le boutton pour annuler le traitement." alt="" coords="785,1592,916,1621"/>
+<area shape="rect" id="node71" href="$db/d97/class_document.html#a7eeba16ca1178c6849bc439884e4e6c4" title="Initialise les varaible, object et determine les cible." alt="" coords="772,1115,929,1144"/>
+<area shape="rect" id="node94" href="$de/dab/class_ihm.html#a61b48d12b0d2876bfd9a81c4e126e257" title="Verifie si un moteur de recherche est selectionne." alt="" coords="1061,851,1160,880"/>
+<area shape="rect" id="node101" href="$db/d97/class_document.html#aadd899b4dd21aa3b9cd8a142e23c9d0d" title="Traite l&#39;envoi le la prochaine requete." alt="" coords="539,833,699,863"/>
+<area shape="rect" id="node73" href="$db/d97/class_document.html#a0f5bcd4826f6a9e5d99c82c5bfe4e581" title="Adapte le nombre de cible." alt="" coords="1028,1115,1193,1144"/>
+<area shape="rect" id="node75" href="$db/d97/class_document.html#aa15cdc8995dd89316337239f31a18059" title="Determine les bouts de texte a teste pour la section &quot;Par paragraphe&quot;." alt="" coords="1015,1168,1207,1197"/>
+<area shape="rect" id="node77" href="$db/d97/class_document.html#a80db3b431896ac51855b7763e4cba37c" title="Determine les bouts de texte a tester pour la section &quot;Par Document&quot; et &quot;Par Dossier&amp;q..." alt="" coords="1004,1221,1217,1251"/>
+<area shape="rect" id="node80" href="$de/dab/class_ihm.html#a5cf36ee5370e8b077a10538d895dc6ff" title="Recupere le texte dans le cas d&#39;une entree par paragraphe." alt="" coords="1047,1275,1175,1304"/>
+<area shape="rect" id="node82" href="$de/dab/class_ihm.html#a368da62012e89b0721d80ad274d78e60" title="Recupere le nombre de mots envoye par requete." alt="" coords="1053,1328,1168,1357"/>
+<area shape="rect" id="node84" href="$de/dab/class_ihm.html#ae011630e1a5ce3b62d487cad011c8168" title="Verifie la selection par police." alt="" coords="1048,1381,1173,1411"/>
+<area shape="rect" id="node86" href="$de/dab/class_ihm.html#a837e99b1f14b30571b433065819c8659" title="Verifie la selection par taille." alt="" coords="1052,1435,1169,1464"/>
+<area shape="rect" id="node88" href="$de/dab/class_ihm.html#ac095b679b10371ded382829e3c9dd3e6" title="Recupere le pourcentage de document a tester." alt="" coords="1033,1488,1188,1517"/>
+<area shape="rect" id="node90" href="$d9/ddb/class_extension.html#a00f336ff69e7a2d9da5c411346af548e" title="A reimplementer selon le moteur de recherche utilise." alt="" coords="1045,904,1176,933"/>
+<area shape="rect" id="node92" href="$de/dab/class_ihm.html#a34f168c901bf6365505f988e5efcc237" title="Recupere la phrase dans le cas d&#39;une entree par phrase." alt="" coords="1064,957,1157,987"/>
+<area shape="rect" id="node97" href="$de/dab/class_ihm.html#a899d4d6dea93e95ba48e1a8557666e0b" title="Recupere le nombre maximum de requete." alt="" coords="1041,1011,1180,1040"/>
+<area shape="rect" id="node103" href="$db/d97/class_document.html#aebd3da3485e098fa519bff6ea965208e" title="Slot d&#39;export en HTML." alt="" coords="775,807,927,836"/>
+<area shape="rect" id="node110" href="$db/d97/class_document.html#ab7c98a3c34137c5d3430989b8c195ef9" title="Traite le dossier pour la section &quot;Par Dossier&quot;." alt="" coords="749,753,952,783"/>
+<area shape="rect" id="node117" href="$de/dab/class_ihm.html#a7142d8f6733cf6c9e0f8765f27fe432d" title="Recupere le nom du dossier dans le cas d&#39;une entree par dossier." alt="" coords="576,696,661,725"/>
+</map>

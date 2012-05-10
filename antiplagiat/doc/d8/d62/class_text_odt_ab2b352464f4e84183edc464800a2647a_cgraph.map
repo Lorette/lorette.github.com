@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$d8/d62/class_text_odt.html#a31f57080a602d48bb684c9cb01cea600" title="Extrait le texte du fichier content.xml est le place dans des XString." alt="" coords="177,5,324,35"/>
+<area shape="rect" id="node5" href="$d8/d62/class_text_odt.html#a39cb6807142b89e3a036d3a3322cb4dc" title="Trie le fichier content.xml en recuperant le texte en fonction des preferences de l&#39;utilisateur..." alt="" coords="208,59,293,88"/>
+<area shape="rect" id="node7" href="$db/d9c/class_x_string.html#af062fa0edd4c34fe9c623cf6ae255720" title="Retourne la police du texte." alt="" coords="375,5,521,35"/>
+<area shape="rect" id="node9" href="$db/d9c/class_x_string.html#a9015fbf5cab7348bbc6f8ca650b15b59" title="Retourne la taille du texte." alt="" coords="379,59,517,88"/>
+<area shape="rect" id="node11" href="$db/d9c/class_x_string.html#a399317bc22332f463adbe9a2f136e702" title="Retourne le texte." alt="" coords="391,112,505,141"/>
+</map>

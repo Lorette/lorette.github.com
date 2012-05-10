@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$de/dab/class_ihm.html#ac095b679b10371ded382829e3c9dd3e6" title="Recupere le pourcentage de document a tester." alt="" coords="235,31,389,60"/>
+<area shape="rect" id="node5" href="$db/d97/class_document.html#a7eeba16ca1178c6849bc439884e4e6c4" title="Initialise les varaible, object et determine les cible." alt="" coords="437,31,595,60"/>
+<area shape="rect" id="node7" href="$db/d97/class_document.html#ac5abbb6b4c81cb4a4fc90aa78faeba65" title="Traitement complet du document." alt="" coords="643,31,824,60"/>
+<area shape="rect" id="node9" href="$de/dab/class_ihm.html#a9dc8653453adffab7805f05348359be4" title="Slot pour lancer le traitement." alt="" coords="1373,5,1483,35"/>
+<area shape="rect" id="node13" href="$db/d97/class_document.html#ab7c98a3c34137c5d3430989b8c195ef9" title="Traite le dossier pour la section &quot;Par Dossier&quot;." alt="" coords="873,31,1076,60"/>
+<area shape="rect" id="node11" href="$de/dab/class_ihm.html#aa57d8072d3eb7b224859ee10e57fae78" title="Constructeur." alt="" coords="1601,5,1673,35"/>
+<area shape="rect" id="node15" href="$db/d97/class_document.html#a09264b30a5908a15c5e226400e2d8260" title="Traitement complet d&#39;un dossier." alt="" coords="1127,31,1292,60"/>
+<area shape="rect" id="node18" href="$db/d97/class_document.html#aadd899b4dd21aa3b9cd8a142e23c9d0d" title="Traite l&#39;envoi le la prochaine requete." alt="" coords="1129,84,1289,113"/>
+<area shape="rect" id="node21" href="$db/d97/class_document.html#a0f24e03aaa7a83dd8377b243c68fb832" title="Slot de traitement." alt="" coords="1341,84,1515,113"/>
+<area shape="rect" id="node23" href="$db/d97/class_document.html#a0aa78f7aef5ff16008587df73f2b7b6b" title="Constructeur." alt="" coords="1564,84,1711,113"/>
+</map>
