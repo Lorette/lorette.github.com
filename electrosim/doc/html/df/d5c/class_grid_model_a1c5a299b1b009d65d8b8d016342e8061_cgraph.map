@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$df/d5c/class_grid_model.html#a136615bf50f8caf4c98022b3dcbbb3bd" title="Constructeur." alt="" coords="239,5,387,32"/>
+<area shape="rect" id="node5" href="$dc/d32/class_item.html#a076d49c8a53e2b3b8cedcc384f4c5d37" title="Affecte le nom a un item." alt="" coords="260,56,367,83"/>
+<area shape="rect" id="node7" href="$dc/d32/class_item.html#a535f0b4527ba759671f28e85b766b693" title="Fonction d&#39;application de la valeur auxiliaire." alt="" coords="249,107,378,133"/>
+<area shape="rect" id="node9" href="$df/d5c/class_grid_model.html#afc83321d6155c765bd749d46cd2afb42" title="Rajoute un item a un index donne." alt="" coords="246,157,381,184"/>
+<area shape="rect" id="node23" href="$df/d5c/class_grid_model.html#a670d9a15a3c583b95753549314e303be" title="Renvoi l&#39;item a partir d&#39;un nom." alt="" coords="219,208,407,235"/>
+<area shape="rect" id="node25" href="$df/d5c/class_grid_model.html#a91d3002e45f22b24b1360164b06709ac" title="Rajoute une connexion." alt="" coords="239,259,387,285"/>
+<area shape="rect" id="node11" href="$df/d5c/class_grid_model.html#ae76925b2a4f95686448b3d882096368f" title="Indique si un nom est correcte. Un nom est considere correcte s&#39;il n&#39;est pas deja utilise et ne conti..." alt="" coords="456,56,629,83"/>
+<area shape="rect" id="node17" href="$dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item." alt="" coords="489,107,596,133"/>
+<area shape="rect" id="node19" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="489,157,596,184"/>
+<area shape="rect" id="node21" href="$df/d5c/class_grid_model.html#a89c48afb4635c286935351f587ba8356" title="Signal emis pour lancer la simulation." alt="" coords="479,208,606,235"/>
+<area shape="rect" id="node13" href="$df/d5c/class_grid_model.html#ae88bfab9fd64ee0f4308ffe778315721" title="Renvoie le nombre de ligne." alt="" coords="689,31,831,57"/>
+<area shape="rect" id="node15" href="$df/d5c/class_grid_model.html#a9a01e370bb1598ece74e9355ee7cccaf" title="Renvoie le nombre de colonne." alt="" coords="677,81,843,108"/>
+<area shape="rect" id="node27" href="$dc/d32/class_item.html#a7722d7b6dbe62001ba877a36df931263" title="Rajoute une connexion a l&#39;item courant et s&#39;occupe de l&#39;indiquer a l&#39;item suivant." alt="" coords="491,259,594,285"/>
+<area shape="rect" id="node29" href="$dc/d32/class_item.html#a28b01b2272cdd25d51ed96c756eddde3" title="Rajoute une connexion a l&#39;item courant en entree." alt="" coords="680,259,840,285"/>
+</map>

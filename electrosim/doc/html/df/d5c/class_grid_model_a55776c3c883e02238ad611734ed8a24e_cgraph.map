@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$df/d5c/class_grid_model.html#afa2086979e129955b3787196d538c968" title="Renvoie l&#39;item situe dans le modele." alt="" coords="254,5,354,32"/>
+<area shape="rect" id="node5" href="$dc/d32/class_item.html#acf9eceed18b1310442c0db9d4513441d" title="Recupere la liste des connexions entrantes de l&#39;item." alt="" coords="250,56,358,83"/>
+<area shape="rect" id="node7" href="$dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item." alt="" coords="245,107,363,133"/>
+<area shape="rect" id="node9" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="251,157,357,184"/>
+<area shape="rect" id="node11" href="$df/d5c/class_grid_model.html#a2fc49b0e22112422b6d354e9b884e5fe" title="Supprime une connexion." alt="" coords="209,208,399,235"/>
+<area shape="rect" id="node13" href="$dc/d32/class_item.html#a82b3a954faea960a8c8666aa81c76fa0" title="Retire mais ne supprime pas une connexion en entree, renvoie cette derniere." alt="" coords="454,183,573,209"/>
+<area shape="rect" id="node15" href="$dc/d32/class_item.html#aa1aae9e9ea4e81dda7c39dcbc5b60b05" title="Retire mais ne supprime pas une connexion en sortie, renvoie cette derniere." alt="" coords="449,233,578,260"/>
+</map>

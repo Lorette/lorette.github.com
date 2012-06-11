@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item." alt="" coords="239,5,358,32"/>
+<area shape="rect" id="node5" href="$df/d5c/class_grid_model.html#ad5d6eea341a26f8250a8515db3db65f0" title="Cree un index." alt="" coords="416,81,536,108"/>
+<area shape="rect" id="node7" href="$df/d5c/class_grid_model.html#acf6e6bdecc8ca3b013c1ff953471dde2" title="Recupere la position d&#39;un item donnee dans la grille." alt="" coords="229,107,368,133"/>
+</map>

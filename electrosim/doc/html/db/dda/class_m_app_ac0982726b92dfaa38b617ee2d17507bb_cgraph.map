@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$df/d5c/class_grid_model.html#afa2086979e129955b3787196d538c968" title="Renvoie l&#39;item situe dans le modele." alt="" coords="258,5,358,32"/>
+<area shape="rect" id="node5" href="$dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item." alt="" coords="249,56,367,83"/>
+<area shape="rect" id="node7" href="$dc/d32/class_item.html#acf9eceed18b1310442c0db9d4513441d" title="Recupere la liste des connexions entrantes de l&#39;item." alt="" coords="254,107,362,133"/>
+<area shape="rect" id="node9" href="$dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item." alt="" coords="255,157,361,184"/>
+<area shape="rect" id="node11" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="488,208,595,235"/>
+<area shape="rect" id="node13" href="$dc/d32/class_item.html#ab518f2a96d950f579527f3bfc148bb26" title="Recupere la valeur auxiliaire de l&#39;item." alt="" coords="243,309,373,336"/>
+<area shape="rect" id="node15" href="$df/d5c/class_grid_model.html#ae76925b2a4f95686448b3d882096368f" title="Indique si un nom est correcte. Un nom est considere correcte s&#39;il n&#39;est pas deja utilise et ne conti..." alt="" coords="221,360,395,387"/>
+<area shape="rect" id="node21" href="$dc/d32/class_item.html#a076d49c8a53e2b3b8cedcc384f4c5d37" title="Affecte le nom a un item." alt="" coords="255,411,361,437"/>
+<area shape="rect" id="node23" href="$df/d5c/class_grid_model.html#a2fc49b0e22112422b6d354e9b884e5fe" title="Supprime une connexion." alt="" coords="213,461,403,488"/>
+<area shape="rect" id="node29" href="$df/d5c/class_grid_model.html#a8ab5a5f83260956691588203d7c13807" title="Applique une variable auxiliaire a un element." alt="" coords="206,259,410,285"/>
+<area shape="rect" id="node17" href="$df/d5c/class_grid_model.html#ae88bfab9fd64ee0f4308ffe778315721" title="Renvoie le nombre de ligne." alt="" coords="470,360,613,387"/>
+<area shape="rect" id="node19" href="$df/d5c/class_grid_model.html#a9a01e370bb1598ece74e9355ee7cccaf" title="Renvoie le nombre de colonne." alt="" coords="459,411,624,437"/>
+<area shape="rect" id="node25" href="$dc/d32/class_item.html#a82b3a954faea960a8c8666aa81c76fa0" title="Retire mais ne supprime pas une connexion en entree, renvoie cette derniere." alt="" coords="482,461,601,488"/>
+<area shape="rect" id="node27" href="$dc/d32/class_item.html#aa1aae9e9ea4e81dda7c39dcbc5b60b05" title="Retire mais ne supprime pas une connexion en sortie, renvoie cette derniere." alt="" coords="477,512,606,539"/>
+<area shape="rect" id="node32" href="$dc/d32/class_item.html#a535f0b4527ba759671f28e85b766b693" title="Fonction d&#39;application de la valeur auxiliaire." alt="" coords="477,259,606,285"/>
+<area shape="rect" id="node34" href="$dc/d32/class_item.html#a3fc81c5ec21368404576bae4317e73a6" title="Slot execute lorsque un signal est emis." alt="" coords="484,309,599,336"/>
+<area shape="rect" id="node36" href="$dc/d32/class_item.html#a9350fb1a15a61092faced6e5910fa06d" title="Verifie si toutes les connexions en entree sont faites et qu&#39;elles possedent une valeur." alt="" coords="673,259,863,285"/>
+<area shape="rect" id="node38" href="$dc/d32/class_item.html#a003df7c145e6180230ac23d5b7f7b5c2" title="Fonction de traitement des donnees." alt="" coords="730,309,806,336"/>
+<area shape="rect" id="node40" href="$dc/d32/class_item.html#a04b51c6568db6dcba055a99799232cc3" title="Signal emis." alt="" coords="709,360,827,387"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$df/d5c/class_grid_model.html#afa2086979e129955b3787196d538c968" title="Renvoie l&#39;item situe dans le modele." alt="" coords="206,5,306,32"/>
+<area shape="rect" id="node5" href="$dc/d32/class_item.html#a678959d62dfcc449228b64e894cdbb5e" title="Recupere l&#39;image de l&#39;item." alt="" coords="202,56,310,83"/>
+<area shape="rect" id="node7" href="$dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item." alt="" coords="203,107,309,133"/>
+<area shape="rect" id="node9" href="$df/d5c/class_grid_model.html#af8abc50097dced3151e503009ecad605" title="Recupere les connexions d&#39;un item et les transforment en ligne." alt="" coords="169,157,343,184"/>
+<area shape="rect" id="node18" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="203,208,309,235"/>
+<area shape="rect" id="node20" href="$dc/d32/class_item.html#ab518f2a96d950f579527f3bfc148bb26" title="Recupere la valeur auxiliaire de l&#39;item." alt="" coords="191,259,321,285"/>
+<area shape="rect" id="node11" href="$dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item." alt="" coords="402,107,521,133"/>
+<area shape="rect" id="node13" href="$df/d5c/class_grid_model.html#ad5d6eea341a26f8250a8515db3db65f0" title="Cree un index." alt="" coords="579,183,699,209"/>
+<area shape="rect" id="node15" href="$df/d5c/class_grid_model.html#acf6e6bdecc8ca3b013c1ff953471dde2" title="Recupere la position d&#39;un item donnee dans la grille." alt="" coords="392,208,531,235"/>
+</map>

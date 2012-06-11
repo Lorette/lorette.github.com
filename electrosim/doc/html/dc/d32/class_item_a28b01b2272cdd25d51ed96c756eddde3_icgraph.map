@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dc/d32/class_item.html#a7722d7b6dbe62001ba877a36df931263" title="Rajoute une connexion a l&#39;item courant et s&#39;occupe de l&#39;indiquer a l&#39;item suivant." alt="" coords="214,31,317,57"/>
+<area shape="rect" id="node5" href="$df/d5c/class_grid_model.html#a91d3002e45f22b24b1360164b06709ac" title="Rajoute une connexion." alt="" coords="366,31,514,57"/>
+<area shape="rect" id="node7" href="$db/dda/class_m_app.html#aea492fb5e5a56dc773544aa21ee21cf6" title="Slot pour un clic sur la grille." alt="" coords="563,5,752,32"/>
+<area shape="rect" id="node9" href="$df/d5c/class_grid_model.html#a1c5a299b1b009d65d8b8d016342e8061" title="Charge le circuit a partir le fichier file." alt="" coords="575,56,739,83"/>
+<area shape="rect" id="node11" href="$db/dda/class_m_app.html#a6c9231cf32004c359fbe6a85dcfc91d8" title="Slot pour un clic sur l&#39;entree &quot;Charger Un Fichier du menu File." alt="" coords="801,56,1090,83"/>
+</map>

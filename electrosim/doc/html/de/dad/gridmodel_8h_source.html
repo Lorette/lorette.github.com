@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Electrosim:  Fichier source de Y:/Bureau/Prog/Electrosim/src/Includes/gridmodel.h</title>
+
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Electrosim
+   &#160;<span id="projectnumber">1.00</span>
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- Généré par Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="../../globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Y:/Bureau/Prog/Electrosim/src/Includes/gridmodel.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../de/dad/gridmodel_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/***********************************************************************</span>
+<a name="l00002"></a>00002 <span class="comment"> * Module:  gridmodel.h</span>
+<a name="l00003"></a>00003 <span class="comment"> * Author:  SALMON PAUL</span>
+<a name="l00004"></a>00004 <span class="comment"> *          MONLOUIS Kevyn</span>
+<a name="l00005"></a>00005 <span class="comment"> *          DUREUIL Brice</span>
+<a name="l00006"></a>00006 <span class="comment"> * Modified: samedi 12 mai 2012 17:15:14</span>
+<a name="l00007"></a>00007 <span class="comment"> * Purpose: Declaration of the class GridModel</span>
+<a name="l00008"></a>00008 <span class="comment"> ***********************************************************************/</span>
+<a name="l00009"></a>00009 
+<a name="l00010"></a>00010 <span class="preprocessor">#ifndef GRIDMODEL_H</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span><span class="preprocessor">#define GRIDMODEL_H</span>
+<a name="l00012"></a>00012 <span class="preprocessor"></span>
+<a name="l00023"></a>00023 <span class="preprocessor">#include &lt;QAbstractItemModel&gt;</span>
+<a name="l00024"></a>00024 <span class="preprocessor">#include &lt;QVector&gt;</span>
+<a name="l00025"></a>00025 <span class="preprocessor">#include &lt;QMessageBox&gt;</span>
+<a name="l00026"></a>00026 <span class="preprocessor">#include &lt;QIcon&gt;</span>
+<a name="l00027"></a>00027 <span class="preprocessor">#include &lt;QPair&gt;</span>
+<a name="l00028"></a>00028 <span class="preprocessor">#include &lt;qmath.h&gt;</span>
+<a name="l00029"></a>00029 <span class="preprocessor">#include &lt;QFile&gt;</span>
+<a name="l00030"></a>00030 <span class="preprocessor">#include &lt;QTextStream&gt;</span>
+<a name="l00031"></a>00031 
+<a name="l00032"></a>00032 <span class="preprocessor">#include &quot;<a class="code" href="../../de/ded/input_8h.html" title="Fichier du composant Input.">input.h</a>&quot;</span>
+<a name="l00033"></a>00033 <span class="preprocessor">#include &quot;<a class="code" href="../../d8/d30/output_8h.html" title="Fichier du composant Output.">output.h</a>&quot;</span>
+<a name="l00034"></a>00034 <span class="preprocessor">#include &quot;<a class="code" href="../../df/d1f/item_8h.html" title="Fichier de la classe mre des composants Item.">item.h</a>&quot;</span>
+<a name="l00035"></a>00035 <span class="preprocessor">#include &quot;<a class="code" href="../../d5/de9/not_8h.html" title="Fichier du composant Not.">not.h</a>&quot;</span>
+<a name="l00036"></a>00036 <span class="preprocessor">#include &quot;<a class="code" href="../../d5/d25/and_8h.html" title="Fichier du composant And.">and.h</a>&quot;</span>
+<a name="l00037"></a>00037 <span class="preprocessor">#include &quot;<a class="code" href="../../df/d34/or_8h.html" title="Fichier du composant Or.">or.h</a>&quot;</span>
+<a name="l00038"></a>00038 <span class="preprocessor">#include &quot;<a class="code" href="../../dc/d77/multiplexer_8h.html" title="Fichier du composant Multiplexer.">multiplexer.h</a>&quot;</span>
+<a name="l00039"></a>00039 <span class="preprocessor">#include &quot;<a class="code" href="../../de/d17/demultiplexer_8h.html" title="Fichier du composant Demultiplexer.">demultiplexer.h</a>&quot;</span>
+<a name="l00040"></a>00040 <span class="preprocessor">#include &quot;<a class="code" href="../../d7/dab/xnor_8h.html" title="Fichier du composant XNOr.">xnor.h</a>&quot;</span>
+<a name="l00041"></a>00041 <span class="preprocessor">#include &quot;<a class="code" href="../../d5/d7b/ieo_8h.html" title="Fichier du composant IeO.">ieo.h</a>&quot;</span>
+<a name="l00042"></a>00042 <span class="preprocessor">#include &quot;<a class="code" href="../../d2/d6b/xor_8h.html" title="Fichier du composant Xor.">xor.h</a>&quot;</span>
+<a name="l00043"></a>00043 
+<a name="l00050"></a><a class="code" href="../../df/d5c/class_grid_model.html">00050</a> <span class="keyword">class </span><a class="code" href="../../df/d5c/class_grid_model.html" title="Classe GridModel :">GridModel</a> : <span class="keyword">public</span> QAbstractItemModel
+<a name="l00051"></a>00051 {
+<a name="l00052"></a>00052 
+<a name="l00053"></a>00053     Q_OBJECT
+<a name="l00054"></a>00054 <span class="keyword">public</span>:
+<a name="l00062"></a>00062     <span class="keyword">explicit</span> <a class="code" href="../../df/d5c/class_grid_model.html#a136615bf50f8caf4c98022b3dcbbb3bd" title="Constructeur.">GridModel</a>(<span class="keywordtype">int</span> rows = 0, <span class="keywordtype">int</span> columns = 0);
+<a name="l00063"></a>00063 
+<a name="l00069"></a>00069     <a class="code" href="../../df/d5c/class_grid_model.html#a08a5f69d7df51dde8fc7ba45e0fde20a" title="Destructeur.">~GridModel</a>();
+<a name="l00070"></a>00070 
+<a name="l00079"></a>00079     <span class="keyword">virtual</span> QModelIndex <a class="code" href="../../df/d5c/class_grid_model.html#ad5d6eea341a26f8250a8515db3db65f0" title="Cree un index.">index</a>(<span class="keywordtype">int</span> row, <span class="keywordtype">int</span> column, <span class="keyword">const</span> QModelIndex &amp;<a class="code" href="../../df/d5c/class_grid_model.html#a5b9bc5903a670f23f7195e2ae35430ed" title="Renvoie l&#39;index du parent.">parent</a> = QModelIndex()) <span class="keyword">const</span>;
+<a name="l00080"></a>00080 
+<a name="l00087"></a>00087     <span class="keyword">virtual</span> QModelIndex <a class="code" href="../../df/d5c/class_grid_model.html#a5b9bc5903a670f23f7195e2ae35430ed" title="Renvoie l&#39;index du parent.">parent</a>(<span class="keyword">const</span> QModelIndex &amp;child) <span class="keyword">const</span>;
+<a name="l00088"></a>00088 
+<a name="l00095"></a>00095     <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../df/d5c/class_grid_model.html#ae88bfab9fd64ee0f4308ffe778315721" title="Renvoie le nombre de ligne.">rowCount</a>(<span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex()) <span class="keyword">const</span>;
+<a name="l00096"></a>00096 
+<a name="l00103"></a>00103     <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../df/d5c/class_grid_model.html#a9a01e370bb1598ece74e9355ee7cccaf" title="Renvoie le nombre de colonne.">columnCount</a>(<span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex()) <span class="keyword">const</span>;
+<a name="l00104"></a>00104 
+<a name="l00112"></a>00112     <span class="keyword">virtual</span> QVariant <a class="code" href="../../df/d5c/class_grid_model.html#a21a8a6dda548f5afb8f5541603f0dd52" title="Renvoie une information en fonction d&#39;un index et d&#39;un r�le.">data</a>(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keywordtype">int</span> role = Qt::DisplayRole) <span class="keyword">const</span>;
+<a name="l00113"></a>00113 
+<a name="l00122"></a>00122     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#af25f44bbceccb5bae03b3f220db2393f" title="Ajoute une valeur au modele en fonction d&#39;un index et d&#39;un r�le">setData</a>(<span class="keyword">const</span> QModelIndex &amp;index, <span class="keyword">const</span> QVariant &amp;value, <span class="keywordtype">int</span> role);
+<a name="l00123"></a>00123 
+<a name="l00131"></a>00131     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a269eca93d10c36e7c67f2097662db6fa" title="Insert une colonne a partir d&#39;une position.">insertColumn</a>(<span class="keywordtype">int</span> column, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00132"></a>00132 
+<a name="l00140"></a>00140     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#ab90ed0d42cb297c2c1e57f41ad568105" title="Supprime une colonne a partir d&#39;une position.">removeColumn</a>(<span class="keywordtype">int</span> column, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00141"></a>00141 
+<a name="l00149"></a>00149     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a479757492b1e216458bd11e36e4afada" title="Insert une ligne a partir d&#39;une position.">insertRow</a>(<span class="keywordtype">int</span> row, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00150"></a>00150 
+<a name="l00158"></a>00158     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a6a36ef1fcda94037de0f9e78722edb3b" title="Supprime une ligne a partir d&#39;une position.">removeRow</a>(<span class="keywordtype">int</span> row, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00159"></a>00159 
+<a name="l00168"></a>00168     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#ac02a8a916f9d8f5e55ef1e15a6ec3059" title="Insert des colonnes a partir d&#39;une position.">insertColumns</a>(<span class="keywordtype">int</span> column, <span class="keywordtype">int</span> count, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00169"></a>00169 
+<a name="l00178"></a>00178     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a8b2f34ba473791870a6e55afcf1d6da4" title="Supprime des colonnes a partir d&#39;une position.">removeColumns</a>(<span class="keywordtype">int</span> column, <span class="keywordtype">int</span> count, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00179"></a>00179 
+<a name="l00188"></a>00188     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#afa48161700bdb3d8c23c5613b4c84d30" title="Insert des lignes a partir d&#39;une position.">insertRows</a>(<span class="keywordtype">int</span> row, <span class="keywordtype">int</span> count, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00189"></a>00189 
+<a name="l00198"></a>00198     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a748ff384547a5184e40b4089a1e72878" title="Supprime des lignes a partir d&#39;une position.">removeRows</a>(<span class="keywordtype">int</span> row, <span class="keywordtype">int</span> count, <span class="keyword">const</span> QModelIndex &amp;parent = QModelIndex());
+<a name="l00199"></a>00199 
+<a name="l00206"></a>00206     <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* <a class="code" href="../../df/d5c/class_grid_model.html#afa2086979e129955b3787196d538c968" title="Renvoie l&#39;item situe dans le modele.">at</a>(<span class="keyword">const</span> QModelIndex &amp;index);
+<a name="l00207"></a>00207 
+<a name="l00215"></a>00215     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#afc83321d6155c765bd749d46cd2afb42" title="Rajoute un item a un index donne.">addItem</a>(<span class="keyword">const</span> QModelIndex &amp;index, <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* item);
+<a name="l00216"></a>00216 
+<a name="l00223"></a>00223     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a91d3002e45f22b24b1360164b06709ac" title="Rajoute une connexion.">connexion</a>(<a class="code" href="../../d4/d34/struct_item_1_1s__connect.html" title="Structure d&#39;une connexion.">Item::s_connect</a>* conn);
+<a name="l00224"></a>00224 
+<a name="l00231"></a>00231     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a55776c3c883e02238ad611734ed8a24e" title="Supprime un item a un index donne.">removeItem</a>(<span class="keyword">const</span> QModelIndex &amp;index);
+<a name="l00232"></a>00232 
+<a name="l00238"></a>00238     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#ab7040b863c14f567edd12481b4d9c709" title="Reinitialise toutes les connexions a NULL.">resetAllConnexions</a>();
+<a name="l00239"></a>00239 
+<a name="l00244"></a>00244     <span class="keywordtype">void</span> <a class="code" href="../../df/d5c/class_grid_model.html#af42ee52e4129b5763595a49c62377d81" title="Lance la simulation.">simulate</a>();
+<a name="l00245"></a>00245 
+<a name="l00253"></a>00253     QPair &lt;QVector &lt; QString &gt;, QVector&lt; QVector &lt; int &gt; &gt; &gt;  <a class="code" href="../../df/d5c/class_grid_model.html#afb9f6b8b1ed895b2f3f918cdb45ffd92" title="Donne la table de verite du circuit.">verite</a>();
+<a name="l00254"></a>00254 
+<a name="l00260"></a>00260     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a8ab5a5f83260956691588203d7c13807" title="Applique une variable auxiliaire a un element.">setDefValueOnInput</a>(<a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> *item, <span class="keywordtype">int</span> value);
+<a name="l00261"></a>00261 
+<a name="l00268"></a>00268     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a63ea4ade7f66b6d888d7ddf15f77afe8" title="Sauvegarde le circuit dans le fichier file.">saveInFile</a>(QFile* file);
+<a name="l00269"></a>00269 
+<a name="l00276"></a>00276     <span class="keyword">static</span> <a class="code" href="../../df/d5c/class_grid_model.html" title="Classe GridModel :">GridModel</a>* <a class="code" href="../../df/d5c/class_grid_model.html#a1c5a299b1b009d65d8b8d016342e8061" title="Charge le circuit a partir le fichier file.">loadFromFile</a>(QFile* file);
+<a name="l00277"></a>00277 
+<a name="l00284"></a>00284     <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* <a class="code" href="../../df/d5c/class_grid_model.html#a670d9a15a3c583b95753549314e303be" title="Renvoi l&#39;item a partir d&#39;un nom.">findChildByName</a>(QString name);
+<a name="l00285"></a>00285 
+<a name="l00294"></a>00294     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#ae76925b2a4f95686448b3d882096368f" title="Indique si un nom est correcte. Un nom est considere correcte s&#39;il n&#39;est pas deja utilise et ne conti...">nameIsCorrect</a>(<span class="keyword">const</span> QString&amp; name) <span class="keyword">const</span>;
+<a name="l00295"></a>00295 
+<a name="l00304"></a>00304     <span class="keywordtype">bool</span> <a class="code" href="../../df/d5c/class_grid_model.html#a2fc49b0e22112422b6d354e9b884e5fe" title="Supprime une connexion.">removeConnexion</a>(<a class="code" href="../../d4/d34/struct_item_1_1s__connect.html" title="Structure d&#39;une connexion.">Item::s_connect</a>* conn);
+<a name="l00305"></a>00305 
+<a name="l00312"></a>00312     QList&lt;QVariant&gt; <a class="code" href="../../df/d5c/class_grid_model.html#af8abc50097dced3151e503009ecad605" title="Recupere les connexions d&#39;un item et les transforment en ligne.">getConnexions</a>(<a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> *it) <span class="keyword">const</span> ;
+<a name="l00313"></a>00313 
+<a name="l00320"></a>00320     QModelIndex <a class="code" href="../../df/d5c/class_grid_model.html#acf6e6bdecc8ca3b013c1ff953471dde2" title="Recupere la position d&#39;un item donnee dans la grille.">getIndex</a>(<a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> *item) <span class="keyword">const</span>;
+<a name="l00321"></a>00321 signals:
+<a name="l00327"></a>00327     <span class="keywordtype">void</span> <a class="code" href="../../df/d5c/class_grid_model.html#a89c48afb4635c286935351f587ba8356" title="Signal emis pour lancer la simulation.">launch</a>();
+<a name="l00328"></a>00328 
+<a name="l00329"></a>00329 <span class="keyword">private</span> :
+<a name="l00330"></a><a class="code" href="../../df/d5c/class_grid_model.html#aacecd95bd416bc0917b05c1a4b9078fc">00330</a>     <span class="keywordtype">int</span> <a class="code" href="../../df/d5c/class_grid_model.html#aacecd95bd416bc0917b05c1a4b9078fc">column_count</a>; 
+<a name="l00331"></a><a class="code" href="../../df/d5c/class_grid_model.html#aba37c5f0daae6f3e9a093ea5b18a9f1e">00331</a>     <span class="keywordtype">int</span> <a class="code" href="../../df/d5c/class_grid_model.html#aba37c5f0daae6f3e9a093ea5b18a9f1e">row_count</a>; 
+<a name="l00332"></a><a class="code" href="../../df/d5c/class_grid_model.html#a46d8561a3f03ad9e3a8e59cbcb5d29dd">00332</a>     QVector&lt; QVector&lt;Item*&gt; &gt; <a class="code" href="../../df/d5c/class_grid_model.html#a46d8561a3f03ad9e3a8e59cbcb5d29dd">items</a>; 
+<a name="l00333"></a><a class="code" href="../../df/d5c/class_grid_model.html#a77ac91e1b130abffce836ef3878683cd">00333</a>     QList &lt;Item *&gt; <a class="code" href="../../df/d5c/class_grid_model.html#a77ac91e1b130abffce836ef3878683cd">inputs</a>; 
+<a name="l00334"></a><a class="code" href="../../df/d5c/class_grid_model.html#a3b96ce0efaaaa9d5cea849f3c393ce56">00334</a>     QList &lt;Item *&gt; <a class="code" href="../../df/d5c/class_grid_model.html#a3b96ce0efaaaa9d5cea849f3c393ce56">outputs</a>; 
+<a name="l00335"></a><a class="code" href="../../df/d5c/class_grid_model.html#ad9423309cc1088991eaa41c43b52c204">00335</a>     QModelIndex <a class="code" href="../../df/d5c/class_grid_model.html#ad9423309cc1088991eaa41c43b52c204">current_modelIndex</a>; 
+<a name="l00336"></a><a class="code" href="../../df/d5c/class_grid_model.html#a97ccf77fe2ea2c5ca1e999dc5c852794">00336</a>     QList &lt;Item::s_connect *&gt; <a class="code" href="../../df/d5c/class_grid_model.html#a97ccf77fe2ea2c5ca1e999dc5c852794">connexions</a>; 
+<a name="l00337"></a>00337 };
+<a name="l00338"></a>00338 
+<a name="l00339"></a>00339 <span class="preprocessor">#endif // GRIDMODEL_H</span>
+</pre></div></div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Généré le Dimanche Juin 10 2012 21:40:42 pour Electrosim par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>

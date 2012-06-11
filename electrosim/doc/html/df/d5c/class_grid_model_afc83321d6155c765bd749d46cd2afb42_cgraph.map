@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$df/d5c/class_grid_model.html#ae76925b2a4f95686448b3d882096368f" title="Indique si un nom est correcte. Un nom est considere correcte s&#39;il n&#39;est pas deja utilise et ne conti..." alt="" coords="189,31,363,57"/>
+<area shape="rect" id="node9" href="$dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item." alt="" coords="223,81,329,108"/>
+<area shape="rect" id="node11" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="223,132,329,159"/>
+<area shape="rect" id="node13" href="$df/d5c/class_grid_model.html#a89c48afb4635c286935351f587ba8356" title="Signal emis pour lancer la simulation." alt="" coords="213,183,339,209"/>
+<area shape="rect" id="node5" href="$df/d5c/class_grid_model.html#ae88bfab9fd64ee0f4308ffe778315721" title="Renvoie le nombre de ligne." alt="" coords="422,5,565,32"/>
+<area shape="rect" id="node7" href="$df/d5c/class_grid_model.html#a9a01e370bb1598ece74e9355ee7cccaf" title="Renvoie le nombre de colonne." alt="" coords="411,56,576,83"/>
+</map>

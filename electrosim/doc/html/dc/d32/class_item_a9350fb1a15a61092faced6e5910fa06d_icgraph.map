@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dc/d32/class_item.html#a3fc81c5ec21368404576bae4317e73a6" title="Slot execute lorsque un signal est emis." alt="" coords="245,31,360,57"/>
+<area shape="rect" id="node5" href="$df/d5c/class_grid_model.html#a8ab5a5f83260956691588203d7c13807" title="Applique une variable auxiliaire a un element." alt="" coords="409,31,613,57"/>
+<area shape="rect" id="node7" href="$db/dda/class_m_app.html#a362ed58923ff1f8834d986c8f52cff05" title="Slot de changement de valeur par defaut." alt="" coords="662,5,866,32"/>
+<area shape="rect" id="node11" href="$db/dda/class_m_app.html#ac0982726b92dfaa38b617ee2d17507bb" title="Slot lors d&#39;un clic sur l&#39;icone de modification." alt="" coords="689,56,839,83"/>
+<area shape="rect" id="node9" href="$db/dda/class_m_app.html#a8ec16020560cbce2a8d235cc3d63cf86" title="Slot pour afficher le menu contextuel." alt="" coords="915,31,1245,57"/>
+</map>

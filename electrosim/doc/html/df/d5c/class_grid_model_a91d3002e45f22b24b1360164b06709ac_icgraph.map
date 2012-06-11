@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/dda/class_m_app.html#aea492fb5e5a56dc773544aa21ee21cf6" title="Slot pour un clic sur la grille." alt="" coords="203,5,392,32"/>
+<area shape="rect" id="node5" href="$df/d5c/class_grid_model.html#a1c5a299b1b009d65d8b8d016342e8061" title="Charge le circuit a partir le fichier file." alt="" coords="215,56,379,83"/>
+<area shape="rect" id="node7" href="$db/dda/class_m_app.html#a6c9231cf32004c359fbe6a85dcfc91d8" title="Slot pour un clic sur l&#39;entree &quot;Charger Un Fichier du menu File." alt="" coords="441,56,730,83"/>
+</map>

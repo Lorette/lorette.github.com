@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/dda/class_m_app.html#a36582bcc6ac5a1b46e4f20c0c21512cc" title="Cree une connexion de type s_connect entre 2 Items." alt="" coords="186,81,337,108"/>
+<area shape="rect" id="node7" href="$db/dda/class_m_app.html#ac0982726b92dfaa38b617ee2d17507bb" title="Slot lors d&#39;un clic sur l&#39;icone de modification." alt="" coords="186,19,337,45"/>
+<area shape="rect" id="node11" href="$df/d5c/class_grid_model.html#a55776c3c883e02238ad611734ed8a24e" title="Supprime un item a un index donne." alt="" coords="184,157,339,184"/>
+<area shape="rect" id="node27" href="$df/d5c/class_grid_model.html#af8abc50097dced3151e503009ecad605" title="Recupere les connexions d&#39;un item et les transforment en ligne." alt="" coords="174,284,349,311"/>
+<area shape="rect" id="node5" href="$db/dda/class_m_app.html#aea492fb5e5a56dc773544aa21ee21cf6" title="Slot pour un clic sur la grille." alt="" coords="468,56,657,83"/>
+<area shape="rect" id="node9" href="$db/dda/class_m_app.html#a8ec16020560cbce2a8d235cc3d63cf86" title="Slot pour afficher le menu contextuel." alt="" coords="397,5,728,32"/>
+<area shape="rect" id="node14" href="$df/d5c/class_grid_model.html#a08a5f69d7df51dde8fc7ba45e0fde20a" title="Destructeur." alt="" coords="485,259,641,285"/>
+<area shape="rect" id="node16" href="$df/d5c/class_grid_model.html#ab90ed0d42cb297c2c1e57f41ad568105" title="Supprime une colonne a partir d&#39;une position." alt="" coords="475,309,650,336"/>
+<area shape="rect" id="node18" href="$df/d5c/class_grid_model.html#a6a36ef1fcda94037de0f9e78722edb3b" title="Supprime une ligne a partir d&#39;une position." alt="" coords="485,107,640,133"/>
+<area shape="rect" id="node20" href="$df/d5c/class_grid_model.html#a8b2f34ba473791870a6e55afcf1d6da4" title="Supprime des colonnes a partir d&#39;une position." alt="" coords="472,157,653,184"/>
+<area shape="rect" id="node24" href="$df/d5c/class_grid_model.html#a748ff384547a5184e40b4089a1e72878" title="Supprime des lignes a partir d&#39;une position." alt="" coords="481,208,644,235"/>
+<area shape="rect" id="node22" href="$db/dda/class_m_app.html#a8cccaa774dc36b00317db09f9884ba24" title="Slot pour un clic sur le menu Options &#45;&gt; Parametres." alt="" coords="777,183,1002,209"/>
+<area shape="rect" id="node29" href="$df/d5c/class_grid_model.html#a21a8a6dda548f5afb8f5541603f0dd52" title="Renvoie une information en fonction d&#39;un index et d&#39;un rôle." alt="" coords="505,360,620,387"/>
+</map>

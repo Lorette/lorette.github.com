@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$df/d5c/class_grid_model.html#afc83321d6155c765bd749d46cd2afb42" title="Rajoute un item a un index donne." alt="" coords="183,56,318,83"/>
+<area shape="rect" id="node11" href="$df/d5c/class_grid_model.html#af42ee52e4129b5763595a49c62377d81" title="Lance la simulation." alt="" coords="181,107,320,133"/>
+<area shape="rect" id="node5" href="$db/dda/class_m_app.html#aea492fb5e5a56dc773544aa21ee21cf6" title="Slot pour un clic sur la grille." alt="" coords="368,5,557,32"/>
+<area shape="rect" id="node7" href="$df/d5c/class_grid_model.html#a1c5a299b1b009d65d8b8d016342e8061" title="Charge le circuit a partir le fichier file." alt="" coords="381,56,545,83"/>
+<area shape="rect" id="node9" href="$db/dda/class_m_app.html#a6c9231cf32004c359fbe6a85dcfc91d8" title="Slot pour un clic sur l&#39;entree &quot;Charger Un Fichier du menu File." alt="" coords="606,56,895,83"/>
+<area shape="rect" id="node13" href="$df/d5c/class_grid_model.html#afb9f6b8b1ed895b2f3f918cdb45ffd92" title="Donne la table de verite du circuit." alt="" coords="403,107,522,133"/>
+<area shape="rect" id="node15" href="$db/dda/class_m_app.html#a5a51151eeba933e623bbe3cdaf6d8661" title="Slot lors d&#39;un clic sur le bouton de la table de verite." alt="" coords="643,107,858,133"/>
+</map>

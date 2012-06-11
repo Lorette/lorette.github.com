@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item." alt="" coords="211,5,330,32"/>
+<area shape="rect" id="node5" href="$dc/d32/class_item.html#acf9eceed18b1310442c0db9d4513441d" title="Recupere la liste des connexions entrantes de l&#39;item." alt="" coords="217,56,325,83"/>
+<area shape="rect" id="node7" href="$dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item." alt="" coords="217,107,324,133"/>
+<area shape="rect" id="node9" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="217,157,324,184"/>
+<area shape="rect" id="node11" href="$dc/d32/class_item.html#ab518f2a96d950f579527f3bfc148bb26" title="Recupere la valeur auxiliaire de l&#39;item." alt="" coords="206,208,335,235"/>
+</map>

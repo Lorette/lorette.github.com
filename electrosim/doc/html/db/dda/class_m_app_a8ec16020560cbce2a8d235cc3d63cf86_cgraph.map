@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$df/d5c/class_grid_model.html#afa2086979e129955b3787196d538c968" title="Renvoie l&#39;item situe dans le modele." alt="" coords="690,54,790,81"/>
+<area shape="rect" id="node5" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="920,155,1027,182"/>
+<area shape="rect" id="node7" href="$dc/d32/class_item.html#ab518f2a96d950f579527f3bfc148bb26" title="Recupere la valeur auxiliaire de l&#39;item." alt="" coords="675,105,805,131"/>
+<area shape="rect" id="node9" href="$db/dda/class_m_app.html#a362ed58923ff1f8834d986c8f52cff05" title="Slot de changement de valeur par defaut." alt="" coords="385,155,589,182"/>
+<area shape="rect" id="node26" href="$db/dda/class_m_app.html#ac0982726b92dfaa38b617ee2d17507bb" title="Slot lors d&#39;un clic sur l&#39;icone de modification." alt="" coords="411,257,562,283"/>
+<area shape="rect" id="node12" href="$df/d5c/class_grid_model.html#a8ab5a5f83260956691588203d7c13807" title="Applique une variable auxiliaire a un element." alt="" coords="638,206,842,233"/>
+<area shape="rect" id="node15" href="$dc/d32/class_item.html#a535f0b4527ba759671f28e85b766b693" title="Fonction d&#39;application de la valeur auxiliaire." alt="" coords="909,206,1038,233"/>
+<area shape="rect" id="node17" href="$dc/d32/class_item.html#a3fc81c5ec21368404576bae4317e73a6" title="Slot execute lorsque un signal est emis." alt="" coords="916,257,1031,283"/>
+<area shape="rect" id="node19" href="$dc/d32/class_item.html#a9350fb1a15a61092faced6e5910fa06d" title="Verifie si toutes les connexions en entree sont faites et qu&#39;elles possedent une valeur." alt="" coords="1105,206,1295,233"/>
+<area shape="rect" id="node21" href="$dc/d32/class_item.html#a003df7c145e6180230ac23d5b7f7b5c2" title="Fonction de traitement des donnees." alt="" coords="1162,257,1238,283"/>
+<area shape="rect" id="node23" href="$dc/d32/class_item.html#a04b51c6568db6dcba055a99799232cc3" title="Signal emis." alt="" coords="1141,307,1259,334"/>
+<area shape="rect" id="node29" href="$dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item." alt="" coords="681,257,799,283"/>
+<area shape="rect" id="node31" href="$dc/d32/class_item.html#acf9eceed18b1310442c0db9d4513441d" title="Recupere la liste des connexions entrantes de l&#39;item." alt="" coords="686,307,794,334"/>
+<area shape="rect" id="node33" href="$dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item." alt="" coords="687,358,793,385"/>
+<area shape="rect" id="node37" href="$df/d5c/class_grid_model.html#ae76925b2a4f95686448b3d882096368f" title="Indique si un nom est correcte. Un nom est considere correcte s&#39;il n&#39;est pas deja utilise et ne conti..." alt="" coords="653,409,827,435"/>
+<area shape="rect" id="node43" href="$dc/d32/class_item.html#a076d49c8a53e2b3b8cedcc384f4c5d37" title="Affecte le nom a un item." alt="" coords="687,459,793,486"/>
+<area shape="rect" id="node45" href="$df/d5c/class_grid_model.html#a2fc49b0e22112422b6d354e9b884e5fe" title="Supprime une connexion." alt="" coords="645,510,835,537"/>
+<area shape="rect" id="node39" href="$df/d5c/class_grid_model.html#ae88bfab9fd64ee0f4308ffe778315721" title="Renvoie le nombre de ligne." alt="" coords="902,371,1045,398"/>
+<area shape="rect" id="node41" href="$df/d5c/class_grid_model.html#a9a01e370bb1598ece74e9355ee7cccaf" title="Renvoie le nombre de colonne." alt="" coords="891,422,1056,449"/>
+<area shape="rect" id="node47" href="$dc/d32/class_item.html#a82b3a954faea960a8c8666aa81c76fa0" title="Retire mais ne supprime pas une connexion en entree, renvoie cette derniere." alt="" coords="914,485,1033,511"/>
+<area shape="rect" id="node49" href="$dc/d32/class_item.html#aa1aae9e9ea4e81dda7c39dcbc5b60b05" title="Retire mais ne supprime pas une connexion en sortie, renvoie cette derniere." alt="" coords="909,535,1038,562"/>
+</map>
