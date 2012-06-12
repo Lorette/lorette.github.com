@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/dda/class_m_app.html#a3a3a33d65bb21c9e81b398382b79ff76" title="Recupere un item en fonction de la selection dans la liste." alt="" coords="387,5,525,32"/>
+<area shape="rect" id="node5" href="$dc/d32/class_item.html#a678959d62dfcc449228b64e894cdbb5e" title="Recupere l&#39;image de l&#39;item." alt="" coords="402,56,510,83"/>
+<area shape="rect" id="node7" href="$dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item." alt="" coords="403,107,509,133"/>
+</map>

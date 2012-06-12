@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Electrosim:  Fichier source de Electrosim/src/Includes/mapp.h</title>
+
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
+</head>
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  
+  
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Electrosim
+   &#160;<span id="projectnumber">1.00</span>
+   </div>
+   
+  </td>
+  
+  
+  
+ </tr>
+ </tbody>
+</table>
+</div>
+
+<!-- Généré par Doxygen 1.8.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../pages.html"><span>Pages&#160;associées</span></a></li>
+      <li><a href="../../namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="../../globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Electrosim/src/Includes/mapp.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d6/d20/mapp_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/***********************************************************************</span>
+<a name="l00002"></a>00002 <span class="comment"> * Module:  mapp.h</span>
+<a name="l00003"></a>00003 <span class="comment"> * Author:  SALMON PAUL</span>
+<a name="l00004"></a>00004 <span class="comment"> *          MONLOUIS Kevyn</span>
+<a name="l00005"></a>00005 <span class="comment"> *          DUREUIL Brice</span>
+<a name="l00006"></a>00006 <span class="comment"> * Modified: samedi 12 mai 2012 17:14:21</span>
+<a name="l00007"></a>00007 <span class="comment"> * Purpose: Declaration of the class MApp</span>
+<a name="l00008"></a>00008 <span class="comment"> ***********************************************************************/</span>
+<a name="l00009"></a>00009 
+<a name="l00010"></a>00010 <span class="preprocessor">#ifndef MAPP_H</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span><span class="preprocessor">#define MAPP_H</span>
+<a name="l00012"></a>00012 <span class="preprocessor"></span>
+<a name="l00023"></a>00023 <span class="preprocessor">#include &lt;QMainWindow&gt;</span>
+<a name="l00024"></a>00024 <span class="preprocessor">#include &lt;QModelIndex&gt;</span>
+<a name="l00025"></a>00025 <span class="preprocessor">#include &lt;QStandardItemModel&gt;</span>
+<a name="l00026"></a>00026 <span class="preprocessor">#include &lt;QListWidgetItem&gt;</span>
+<a name="l00027"></a>00027 <span class="preprocessor">#include &lt;QObject&gt;</span>
+<a name="l00028"></a>00028 <span class="preprocessor">#include &lt;QMessageBox&gt;</span>
+<a name="l00029"></a>00029 <span class="preprocessor">#include &lt;QInputDialog&gt;</span>
+<a name="l00030"></a>00030 <span class="preprocessor">#include &lt;QFileDialog&gt;</span>
+<a name="l00031"></a>00031 <span class="preprocessor">#include &lt;QTranslator&gt;</span>
+<a name="l00032"></a>00032 <span class="preprocessor">#include &lt;QLabel&gt;</span>
+<a name="l00033"></a>00033 <span class="preprocessor">#include &lt;QVector&gt;</span>
+<a name="l00034"></a>00034 <span class="preprocessor">#include &lt;QCheckBox&gt;</span>
+<a name="l00035"></a>00035 <span class="preprocessor">#include &lt;QMenu&gt;</span>
+<a name="l00036"></a>00036 <span class="preprocessor">#include &lt;QPixmap&gt;</span>
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038 <span class="preprocessor">#include &quot;<a class="code" href="../../df/d1f/item_8h.html" title="Fichier de la classe mre des composants Item.">item.h</a>&quot;</span>
+<a name="l00039"></a>00039 <span class="preprocessor">#include &quot;<a class="code" href="../../de/ded/input_8h.html" title="Fichier du composant Input.">input.h</a>&quot;</span>
+<a name="l00040"></a>00040 <span class="preprocessor">#include &quot;<a class="code" href="../../d8/d30/output_8h.html" title="Fichier du composant Output.">output.h</a>&quot;</span>
+<a name="l00041"></a>00041 <span class="preprocessor">#include &quot;<a class="code" href="../../d5/de9/not_8h.html" title="Fichier du composant Not.">not.h</a>&quot;</span>
+<a name="l00042"></a>00042 <span class="preprocessor">#include &quot;<a class="code" href="../../df/d34/or_8h.html" title="Fichier du composant Or.">or.h</a>&quot;</span>
+<a name="l00043"></a>00043 <span class="preprocessor">#include &quot;<a class="code" href="../../d5/d25/and_8h.html" title="Fichier du composant And.">and.h</a>&quot;</span>
+<a name="l00044"></a>00044 <span class="preprocessor">#include &quot;<a class="code" href="../../dc/d77/multiplexer_8h.html" title="Fichier du composant Multiplexer.">multiplexer.h</a>&quot;</span>
+<a name="l00045"></a>00045 <span class="preprocessor">#include &quot;<a class="code" href="../../de/d17/demultiplexer_8h.html" title="Fichier du composant Demultiplexer.">demultiplexer.h</a>&quot;</span>
+<a name="l00046"></a>00046 <span class="preprocessor">#include &quot;<a class="code" href="../../d7/dab/xnor_8h.html" title="Fichier du composant XNOr.">xnor.h</a>&quot;</span>
+<a name="l00047"></a>00047 <span class="preprocessor">#include &quot;<a class="code" href="../../d1/d77/node_8h.html" title="Fichier du composant Node.">node.h</a>&quot;</span>
+<a name="l00048"></a>00048 <span class="preprocessor">#include &quot;<a class="code" href="../../d2/d6b/xor_8h.html" title="Fichier du composant Xor.">xor.h</a>&quot;</span>
+<a name="l00049"></a>00049 <span class="preprocessor">#include &quot;<a class="code" href="../../de/dad/gridmodel_8h.html" title="Modele de la grille.">gridmodel.h</a>&quot;</span>
+<a name="l00050"></a>00050 <span class="preprocessor">#include &quot;<a class="code" href="../../d7/d9a/imagedelegate_8h.html" title="Fichier du delegue ImageDelegate.">imagedelegate.h</a>&quot;</span>
+<a name="l00051"></a>00051 
+<a name="l00057"></a>00057 <span class="keyword">namespace </span>Ui {
+<a name="l00058"></a>00058     <span class="keyword">class </span><a class="code" href="../../db/dda/class_m_app.html" title="Classe MApp :">MApp</a>;
+<a name="l00059"></a>00059     <span class="keyword">class </span>ConnOpt;
+<a name="l00060"></a>00060     <span class="keyword">class </span>Settings;
+<a name="l00061"></a>00061     <span class="keyword">class </span>Modify;
+<a name="l00062"></a>00062     <span class="keyword">class </span>Verite;
+<a name="l00063"></a>00063     <span class="keyword">class </span>About_component;
+<a name="l00064"></a>00064 }
+<a name="l00065"></a>00065 
+<a name="l00072"></a><a class="code" href="../../db/dda/class_m_app.html">00072</a> <span class="keyword">class </span><a class="code" href="../../db/dda/class_m_app.html" title="Classe MApp :">MApp</a> : <span class="keyword">public</span> QMainWindow
+<a name="l00073"></a>00073 {
+<a name="l00074"></a>00074     Q_OBJECT
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076 <span class="keyword">public</span>:
+<a name="l00078"></a><a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975a1e70c60cbcd654f2a4ff9802accb31fa">00078</a>     <span class="keyword">enum</span> <a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975">Modes</a> {<a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975a1e70c60cbcd654f2a4ff9802accb31fa">VIEW</a>, <a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975a8cd2e771d3844474c1543a8465e24214">PLACE</a>, <a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975ad0e7170058f8cd6751c977fe67de18c3">CONNECT1</a>, <a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975a11d4f06c2ab155976237920aaeef8a15">DELETE</a>, <a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975a8259f8c6c66a8ea9c0abfa3a56918d54">CONNECT2</a>}; 
+<a name="l00086"></a>00086     <span class="keyword">explicit</span> <a class="code" href="../../db/dda/class_m_app.html#a9542f6e92748e5147afc415984817744" title="Constructeur.">MApp</a>(QWidget *parent = 0);
+<a name="l00087"></a>00087 
+<a name="l00093"></a>00093     <a class="code" href="../../db/dda/class_m_app.html#a318da69f17961dd34eb3aa356fd80c19" title="Destructeur.">~MApp</a>();
+<a name="l00094"></a>00094 
+<a name="l00100"></a>00100     <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* <a class="code" href="../../db/dda/class_m_app.html#a3a3a33d65bb21c9e81b398382b79ff76" title="Recupere un item en fonction de la selection dans la liste.">getItemInList</a>();
+<a name="l00101"></a>00101 
+<a name="l00107"></a>00107     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#aecdc35f7db7bc101741cbbc4cbefd0a7" title="Charge et recharge la liste.">loadList</a>();
+<a name="l00108"></a>00108 
+<a name="l00109"></a>00109 <span class="keyword">private</span>:
+<a name="l00117"></a>00117     <a class="code" href="../../d4/d34/struct_item_1_1s__connect.html" title="Structure d&#39;une connexion.">Item::s_connect</a>* <a class="code" href="../../db/dda/class_m_app.html#a36582bcc6ac5a1b46e4f20c0c21512cc" title="Cree une connexion de type s_connect entre 2 Items.">autoS_connect</a>(<a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> *sender, <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> *receiver);
+<a name="l00118"></a>00118 
+<a name="l00119"></a>00119 <span class="keyword">private</span> slots:
+<a name="l00125"></a>00125     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#aea492fb5e5a56dc773544aa21ee21cf6" title="Slot pour un clic sur la grille.">on_tableView_clicked</a>(<span class="keyword">const</span> QModelIndex &amp;index);
+<a name="l00126"></a>00126 
+<a name="l00132"></a>00132     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a8cccaa774dc36b00317db09f9884ba24" title="Slot pour un clic sur le menu Options -&gt; Parametres.">on_actionSettings_triggered</a>();
+<a name="l00133"></a>00133 
+<a name="l00139"></a>00139     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a6c9231cf32004c359fbe6a85dcfc91d8" title="Slot pour un clic sur l&#39;entree "Charger Un Fichier du menu File.">on_actionCharger_un_Fichier_triggered</a>();
+<a name="l00145"></a>00145     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#ad3c1c18690bb97e91c866dba5f2bf458" title="Slot pour un clic sur l&#39;entree &quot;Sauvegarder Un Circuit&quot; du menu File.">on_actionSauvegarder_un_Fichier_triggered</a>();
+<a name="l00146"></a>00146 
+<a name="l00152"></a>00152     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a79581a98ce69204cfc254f81e9c0fcc5" title="Slot pour un clic sur l&#39;entree Quit.">on_actionQuit_triggered</a>();
+<a name="l00153"></a>00153 
+<a name="l00159"></a>00159     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a362ed58923ff1f8834d986c8f52cff05" title="Slot de changement de valeur par defaut.">def_value_valueChanged</a>();
+<a name="l00160"></a>00160 
+<a name="l00166"></a>00166     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#ac0982726b92dfaa38b617ee2d17507bb" title="Slot lors d&#39;un clic sur l&#39;icone de modification.">modify_clicked</a>();
+<a name="l00167"></a>00167 
+<a name="l00173"></a>00173     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a5a51151eeba933e623bbe3cdaf6d8661" title="Slot lors d&#39;un clic sur le bouton de la table de verite.">on_TableDeVerite_clicked</a>();
+<a name="l00174"></a>00174 
+<a name="l00180"></a>00180     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#ae4dd9e81a04bc30037f2bfc63e9f5fbd" title="Slot lors d&#39;un clic sur l&#39;action Francais dans le menu langues.">on_actionFrench_triggered</a>();
+<a name="l00181"></a>00181 
+<a name="l00187"></a>00187     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a930b889e7f3eb8469a8460f860fc09ef" title="Slot lors d&#39;un clic sur l&#39;action Anglais dans le menu langues.">on_actionEnglish_triggered</a>();
+<a name="l00188"></a>00188 
+<a name="l00194"></a>00194     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#ad55bfacfee2059b4fa7003295b21cd0b" title="Slot lors d&#39;un clic sur l&#39;action Nouveau dans le menu Fichier.">on_actionNew_triggered</a>();
+<a name="l00195"></a>00195 
+<a name="l00201"></a>00201     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#ab872dcaad3f637105a0139f48db5a9fd" title="Slot lors d&#39;un changement du mode.">on_mode_activated</a>(<span class="keywordtype">int</span> index);
+<a name="l00202"></a>00202 
+<a name="l00208"></a>00208     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a8ec16020560cbce2a8d235cc3d63cf86" title="Slot pour afficher le menu contextuel de la grille.">on_tableView_customContextMenuRequested</a>(<span class="keyword">const</span> QPoint &amp;pos);
+<a name="l00209"></a>00209 
+<a name="l00215"></a>00215     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#a18fd5ca19a5e1e6bed5a3a6e46e283cc" title="Slot pour afficher le apropos.">on_actionAbout_us_triggered</a>();
+<a name="l00216"></a>00216 
+<a name="l00222"></a>00222     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#ac14a1f24827bcc040ecf505b1fcb33d6" title="Slot pour afficher les informations du un composant.">on_listWidget_customContextMenuRequested</a>(<span class="keyword">const</span> QPoint &amp;pos);
+<a name="l00223"></a>00223 
+<a name="l00229"></a>00229     <span class="keywordtype">void</span> <a class="code" href="../../db/dda/class_m_app.html#acbd6adf98b594e539487c3b49594b8a5" title="Slot pour enregistrer le circuit courant an tant qu&#39;image.">on_actionSave_as_PNG_triggered</a>();
+<a name="l00230"></a>00230 
+<a name="l00231"></a>00231 <span class="keyword">private</span>:
+<a name="l00232"></a><a class="code" href="../../db/dda/class_m_app.html#af2a1097d859c4a5f7a754f6bf46888f2">00232</a>     Ui::MApp *<a class="code" href="../../db/dda/class_m_app.html#af2a1097d859c4a5f7a754f6bf46888f2">ui</a>; 
+<a name="l00233"></a><a class="code" href="../../db/dda/class_m_app.html#a0bc13fb95911656d169684bbe2f64888">00233</a>     <a class="code" href="../../df/d5c/class_grid_model.html" title="Classe GridModel :">GridModel</a> *<a class="code" href="../../db/dda/class_m_app.html#a0bc13fb95911656d169684bbe2f64888">model</a>; 
+<a name="l00234"></a><a class="code" href="../../db/dda/class_m_app.html#aa18e9d82be69c469baa9f025235a5ea4">00234</a>     <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> *<a class="code" href="../../db/dda/class_m_app.html#aa18e9d82be69c469baa9f025235a5ea4">currentItem</a>; 
+<a name="l00235"></a><a class="code" href="../../db/dda/class_m_app.html#a5bf75d34e6acd74641078774b38a13eb">00235</a>     QModelIndex <a class="code" href="../../db/dda/class_m_app.html#a5bf75d34e6acd74641078774b38a13eb">currentIndex</a>; 
+<a name="l00236"></a><a class="code" href="../../db/dda/class_m_app.html#a4381f9e978cff460ea6f6a71e02e5665">00236</a>     <a class="code" href="../../db/dda/class_m_app.html#af6157ebfd8e2e7d0613f3a99ce664975">Modes</a> <a class="code" href="../../db/dda/class_m_app.html#a4381f9e978cff460ea6f6a71e02e5665">currentAction</a>; 
+<a name="l00238"></a>00238 };
+<a name="l00239"></a>00239 
+<a name="l00240"></a>00240 <span class="preprocessor">#endif // MAPP_H</span>
+</pre></div></div><!-- contents -->
+
+
+<hr class="footer"/><address class="footer"><small>
+Généré le Mardi Juin 12 2012 17:46:24 pour Electrosim par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.0
+</small></address>
+
+</body>
+</html>
