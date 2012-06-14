@@ -115,69 +115,69 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
 <a name="l00028"></a>00028 <span class="preprocessor">#include &lt;QLine&gt;</span>
 <a name="l00029"></a>00029 <span class="preprocessor">#include &lt;QVariant&gt;</span>
 <a name="l00030"></a>00030 
-<a name="l00037"></a><a class="code" href="../../dc/d32/class_item.html">00037</a> <span class="keyword">class </span><a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> : <span class="keyword">public</span> QObject
-<a name="l00038"></a>00038 {
-<a name="l00039"></a>00039     Q_OBJECT
-<a name="l00040"></a>00040 <span class="keyword">public</span>:
-<a name="l00046"></a><a class="code" href="../../d4/d34/struct_item_1_1s__connect.html#a672278cfc26654a928c6e9eb4ca2764d">00046</a>     <span class="keyword">typedef</span> <span class="keyword">struct </span>{<a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* sender; <span class="keywordtype">int</span> output; <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* receiver; <span class="keywordtype">int</span> input; <span class="keywordtype">int</span>* <a class="code" href="../../d4/d34/struct_item_1_1s__connect.html#a672278cfc26654a928c6e9eb4ca2764d">value</a>; } <a class="code" href="../../d4/d34/struct_item_1_1s__connect.html" title="Structure d&#39;une connexion.">s_connect</a>;
-<a name="l00047"></a>00047 
-<a name="l00053"></a><a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcace3b3e9470ea6de6e8d865ac94edebc4">00053</a>     <span class="keyword">enum</span> <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dc" title="Enumeration de la liste des composants.">Items</a> { <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca8606634d19083d0b7d0700e6dcbb6d5f">Input</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca88e5843b9df0147c7613f683b430753b">Output</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcadbc0f59a9d6d984e8f807276c692541d">Not</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcaa1de88a97fe834bbbc44f67209d40f72">Or</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcace3b3e9470ea6de6e8d865ac94edebc4">Xor</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca317ebbba5dbf6ed1c11a2f35ff31d888">XNOr</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca27f972847a5608c76fa8197a49d16de0">And</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcadc7bb440aac5964c7bfa76a84558141c">Mux</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcab6abfa133043e235ab99ee8b8bef69d2">Demux</a>, <a class="code" href="../../dc/d8f/class_node.html" title="Classe Node :">Node</a> };
-<a name="l00054"></a>00054 
-<a name="l00055"></a>00055 <span class="keyword">public</span>:
-<a name="l00063"></a>00063     <span class="keyword">explicit</span> <a class="code" href="../../dc/d32/class_item.html#aabd972d6d2b789c2ea8d83c127b9bfa6" title="Constructeur.">Item</a>(QObject *parent = 0);
-<a name="l00064"></a>00064 
-<a name="l00070"></a>00070     QString <a class="code" href="../../dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item.">getName</a>();
-<a name="l00071"></a>00071 
-<a name="l00077"></a>00077     QString <a class="code" href="../../dc/d32/class_item.html#a678959d62dfcc449228b64e894cdbb5e" title="Recupere l&#39;image de l&#39;item.">getImage</a>();
-<a name="l00078"></a>00078 
-<a name="l00084"></a>00084     <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dc" title="Enumeration de la liste des composants.">Items</a> <a class="code" href="../../dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item.">getClass</a>();
-<a name="l00085"></a>00085 
-<a name="l00091"></a>00091     <span class="keywordtype">int</span> <a class="code" href="../../dc/d32/class_item.html#ab518f2a96d950f579527f3bfc148bb26" title="Recupere la valeur auxiliaire de l&#39;item.">getAuxValue</a>();
-<a name="l00092"></a>00092 
-<a name="l00098"></a>00098     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item.">getOutputs</a>();
-<a name="l00099"></a>00099 
-<a name="l00105"></a>00105     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#acf9eceed18b1310442c0db9d4513441d" title="Recupere la liste des connexions entrantes de l&#39;item.">getInputs</a>();
-<a name="l00106"></a>00106 
-<a name="l00112"></a>00112     <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a076d49c8a53e2b3b8cedcc384f4c5d37" title="Affecte le nom a un item.">setName</a>(QString <a class="code" href="../../dc/d32/class_item.html#a2fd846e43ba34201d03a45abe54f2973">name</a>);
-<a name="l00113"></a>00113 
-<a name="l00119"></a>00119     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a535f0b4527ba759671f28e85b766b693" title="Fonction d&#39;application de la valeur auxiliaire.">setAuxValue</a>(<span class="keywordtype">int</span> value);
-<a name="l00120"></a>00120 
-<a name="l00127"></a>00127      <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a7722d7b6dbe62001ba877a36df931263" title="Rajoute une connexion a l&#39;item courant et s&#39;occupe de l&#39;indiquer a l&#39;item suivant.">addNext</a>(s_connect* conn);
-<a name="l00128"></a>00128 
-<a name="l00135"></a>00135      <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a28b01b2272cdd25d51ed96c756eddde3" title="Rajoute une connexion a l&#39;item courant en entree.">askForConnection</a>(s_connect* conn);
-<a name="l00136"></a>00136 
-<a name="l00142"></a>00142      <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a9350fb1a15a61092faced6e5910fa06d" title="Verifie si toutes les connexions en entree sont faites et qu&#39;elles possedent une valeur.">checkAllValueReceived</a>();
-<a name="l00143"></a>00143 
-<a name="l00150"></a>00150      s_connect* <a class="code" href="../../dc/d32/class_item.html#a82b3a954faea960a8c8666aa81c76fa0" title="Retire mais ne supprime pas une connexion en entree, renvoie cette derniere.">deleteInput</a>(<span class="keywordtype">int</span> input);
-<a name="l00151"></a>00151 
-<a name="l00158"></a>00158      s_connect* <a class="code" href="../../dc/d32/class_item.html#aa1aae9e9ea4e81dda7c39dcbc5b60b05" title="Retire mais ne supprime pas une connexion en sortie, renvoie cette derniere.">deleteOutput</a>(<span class="keywordtype">int</span> output);
-<a name="l00159"></a>00159 
-<a name="l00160"></a>00160 <span class="keyword">protected</span> :
-<a name="l00166"></a>00166     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a003df7c145e6180230ac23d5b7f7b5c2" title="Fonction de traitement des donnees.">_do</a>() = 0;
-<a name="l00167"></a>00167 
-<a name="l00168"></a>00168 signals :
-<a name="l00175"></a>00175     <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a04b51c6568db6dcba055a99799232cc3" title="Signal emis.">sendSignal</a>();
-<a name="l00176"></a>00176 
-<a name="l00177"></a>00177 <span class="keyword">public</span> slots:
-<a name="l00184"></a>00184      <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a3fc81c5ec21368404576bae4317e73a6" title="Slot execute lorsque un signal est emis.">recvSignal</a>();
-<a name="l00185"></a>00185 
-<a name="l00186"></a>00186 <span class="keyword">protected</span> :
-<a name="l00187"></a><a class="code" href="../../dc/d32/class_item.html#a97bd4907ff61e6f9bc392717eba9e2d0">00187</a>     <span class="keywordtype">int</span> <a class="code" href="../../dc/d32/class_item.html#a97bd4907ff61e6f9bc392717eba9e2d0">aux</a>; 
-<a name="l00188"></a><a class="code" href="../../dc/d32/class_item.html#a00104c83a37c8649cda70977951769a1">00188</a>     <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dc" title="Enumeration de la liste des composants.">Items</a> <a class="code" href="../../dc/d32/class_item.html#a00104c83a37c8649cda70977951769a1">classe</a>; 
-<a name="l00189"></a><a class="code" href="../../dc/d32/class_item.html#a2fd846e43ba34201d03a45abe54f2973">00189</a>     QString <a class="code" href="../../dc/d32/class_item.html#a2fd846e43ba34201d03a45abe54f2973">name</a>; 
-<a name="l00190"></a><a class="code" href="../../dc/d32/class_item.html#a04a93f22ee9b2e30393300baeb720ec0">00190</a>     QString <a class="code" href="../../dc/d32/class_item.html#a04a93f22ee9b2e30393300baeb720ec0">image</a>; 
-<a name="l00191"></a><a class="code" href="../../dc/d32/class_item.html#a751949fed978bc92311d50f250c66da1">00191</a>     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#a751949fed978bc92311d50f250c66da1">outputs</a>; 
-<a name="l00192"></a><a class="code" href="../../dc/d32/class_item.html#a5fa24127dd0acc5a8374601b59d84a86">00192</a>     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#a5fa24127dd0acc5a8374601b59d84a86">inputs</a>; 
-<a name="l00194"></a>00194 <span class="keyword">private</span> :
-<a name="l00195"></a><a class="code" href="../../dc/d32/class_item.html#a7c2a3e2f4a82131b96a2f528519912b9">00195</a>     <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a7c2a3e2f4a82131b96a2f528519912b9">deleted</a>; 
-<a name="l00197"></a>00197 };
-<a name="l00198"></a>00198 
-<a name="l00199"></a>00199 <span class="preprocessor">#endif // ITEM_H</span>
+<a name="l00041"></a><a class="code" href="../../dc/d32/class_item.html">00041</a> <span class="keyword">class </span><a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a> : <span class="keyword">public</span> QObject
+<a name="l00042"></a>00042 {
+<a name="l00043"></a>00043     Q_OBJECT
+<a name="l00044"></a>00044 <span class="keyword">public</span>:
+<a name="l00050"></a><a class="code" href="../../d4/d34/struct_item_1_1s__connect.html#a672278cfc26654a928c6e9eb4ca2764d">00050</a>     <span class="keyword">typedef</span> <span class="keyword">struct </span>{<a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* sender; <span class="keywordtype">int</span> output; <a class="code" href="../../dc/d32/class_item.html" title="Classe Item :">Item</a>* receiver; <span class="keywordtype">int</span> input; <span class="keywordtype">int</span>* <a class="code" href="../../d4/d34/struct_item_1_1s__connect.html#a672278cfc26654a928c6e9eb4ca2764d">value</a>; } <a class="code" href="../../d4/d34/struct_item_1_1s__connect.html" title="Structure d&#39;une connexion.">s_connect</a>;
+<a name="l00051"></a>00051 
+<a name="l00057"></a><a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcace3b3e9470ea6de6e8d865ac94edebc4">00057</a>     <span class="keyword">enum</span> <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dc" title="Enumeration de la liste des composants.">Items</a> { <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca8606634d19083d0b7d0700e6dcbb6d5f">Input</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca88e5843b9df0147c7613f683b430753b">Output</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcadbc0f59a9d6d984e8f807276c692541d">Not</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcaa1de88a97fe834bbbc44f67209d40f72">Or</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcace3b3e9470ea6de6e8d865ac94edebc4">Xor</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca317ebbba5dbf6ed1c11a2f35ff31d888">XNOr</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dca27f972847a5608c76fa8197a49d16de0">And</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcadc7bb440aac5964c7bfa76a84558141c">Mux</a>, <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dcab6abfa133043e235ab99ee8b8bef69d2">Demux</a>, <a class="code" href="../../dc/d8f/class_node.html" title="Classe Node :">Node</a> };
+<a name="l00058"></a>00058 
+<a name="l00059"></a>00059 <span class="keyword">public</span>:
+<a name="l00067"></a>00067     <span class="keyword">explicit</span> <a class="code" href="../../dc/d32/class_item.html#aabd972d6d2b789c2ea8d83c127b9bfa6" title="Constructeur.">Item</a>(QObject *parent = 0);
+<a name="l00068"></a>00068 
+<a name="l00074"></a>00074     QString <a class="code" href="../../dc/d32/class_item.html#a051681ce4ed1cf4e9660b9996dbf11e4" title="Recupere le nom de l&#39;item.">getName</a>();
+<a name="l00075"></a>00075 
+<a name="l00081"></a>00081     QString <a class="code" href="../../dc/d32/class_item.html#a678959d62dfcc449228b64e894cdbb5e" title="Recupere l&#39;image de l&#39;item.">getImage</a>();
+<a name="l00082"></a>00082 
+<a name="l00088"></a>00088     <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dc" title="Enumeration de la liste des composants.">Items</a> <a class="code" href="../../dc/d32/class_item.html#abf0d663ba7dd4b69b2ab0160a8b40cf7" title="Recupere la description de l&#39;item.">getClass</a>();
+<a name="l00089"></a>00089 
+<a name="l00095"></a>00095     <span class="keywordtype">int</span> <a class="code" href="../../dc/d32/class_item.html#ab518f2a96d950f579527f3bfc148bb26" title="Recupere la valeur auxiliaire de l&#39;item.">getAuxValue</a>();
+<a name="l00096"></a>00096 
+<a name="l00102"></a>00102     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#aa0b43ce500626e959b4c004bee5dddd3" title="Recupere la liste des connexions sortantes de l&#39;item.">getOutputs</a>();
+<a name="l00103"></a>00103 
+<a name="l00109"></a>00109     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#acf9eceed18b1310442c0db9d4513441d" title="Recupere la liste des connexions entrantes de l&#39;item.">getInputs</a>();
+<a name="l00110"></a>00110 
+<a name="l00116"></a>00116     <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a076d49c8a53e2b3b8cedcc384f4c5d37" title="Affecte le nom a un item.">setName</a>(QString <a class="code" href="../../dc/d32/class_item.html#a2fd846e43ba34201d03a45abe54f2973">name</a>);
+<a name="l00117"></a>00117 
+<a name="l00123"></a>00123     <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a535f0b4527ba759671f28e85b766b693" title="Fonction d&#39;application de la valeur auxiliaire.">setAuxValue</a>(<span class="keywordtype">int</span> value);
+<a name="l00124"></a>00124 
+<a name="l00131"></a>00131      <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a7722d7b6dbe62001ba877a36df931263" title="Rajoute une connexion a l&#39;item courant et s&#39;occupe de l&#39;indiquer a l&#39;item suivant.">addNext</a>(s_connect* conn);
+<a name="l00132"></a>00132 
+<a name="l00139"></a>00139      <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a28b01b2272cdd25d51ed96c756eddde3" title="Rajoute une connexion a l&#39;item courant en entree.">askForConnection</a>(s_connect* conn);
+<a name="l00140"></a>00140 
+<a name="l00146"></a>00146      <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a9350fb1a15a61092faced6e5910fa06d" title="Verifie si toutes les connexions en entree sont faites et qu&#39;elles possedent une valeur.">checkAllValueReceived</a>();
+<a name="l00147"></a>00147 
+<a name="l00154"></a>00154      s_connect* <a class="code" href="../../dc/d32/class_item.html#a82b3a954faea960a8c8666aa81c76fa0" title="Retire mais ne supprime pas une connexion en entree, renvoie cette derniere.">deleteInput</a>(<span class="keywordtype">int</span> input);
+<a name="l00155"></a>00155 
+<a name="l00162"></a>00162      s_connect* <a class="code" href="../../dc/d32/class_item.html#aa1aae9e9ea4e81dda7c39dcbc5b60b05" title="Retire mais ne supprime pas une connexion en sortie, renvoie cette derniere.">deleteOutput</a>(<span class="keywordtype">int</span> output);
+<a name="l00163"></a>00163 
+<a name="l00164"></a>00164 <span class="keyword">protected</span> :
+<a name="l00170"></a>00170     <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a003df7c145e6180230ac23d5b7f7b5c2" title="Fonction de traitement des donnees.">_do</a>() = 0;
+<a name="l00171"></a>00171 
+<a name="l00172"></a>00172 signals :
+<a name="l00179"></a>00179     <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a04b51c6568db6dcba055a99799232cc3" title="Signal emis.">sendSignal</a>();
+<a name="l00180"></a>00180 
+<a name="l00181"></a>00181 <span class="keyword">public</span> slots:
+<a name="l00188"></a>00188      <span class="keywordtype">void</span> <a class="code" href="../../dc/d32/class_item.html#a3fc81c5ec21368404576bae4317e73a6" title="Slot execute lorsque un signal est emis.">recvSignal</a>();
+<a name="l00189"></a>00189 
+<a name="l00190"></a>00190 <span class="keyword">protected</span> :
+<a name="l00191"></a><a class="code" href="../../dc/d32/class_item.html#a97bd4907ff61e6f9bc392717eba9e2d0">00191</a>     <span class="keywordtype">int</span> <a class="code" href="../../dc/d32/class_item.html#a97bd4907ff61e6f9bc392717eba9e2d0">aux</a>; 
+<a name="l00192"></a><a class="code" href="../../dc/d32/class_item.html#a00104c83a37c8649cda70977951769a1">00192</a>     <a class="code" href="../../dc/d32/class_item.html#abbfa3ffc3a68c38eaae53812b29dc2dc" title="Enumeration de la liste des composants.">Items</a> <a class="code" href="../../dc/d32/class_item.html#a00104c83a37c8649cda70977951769a1">classe</a>; 
+<a name="l00193"></a><a class="code" href="../../dc/d32/class_item.html#a2fd846e43ba34201d03a45abe54f2973">00193</a>     QString <a class="code" href="../../dc/d32/class_item.html#a2fd846e43ba34201d03a45abe54f2973">name</a>; 
+<a name="l00194"></a><a class="code" href="../../dc/d32/class_item.html#a04a93f22ee9b2e30393300baeb720ec0">00194</a>     QString <a class="code" href="../../dc/d32/class_item.html#a04a93f22ee9b2e30393300baeb720ec0">image</a>; 
+<a name="l00195"></a><a class="code" href="../../dc/d32/class_item.html#a751949fed978bc92311d50f250c66da1">00195</a>     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#a751949fed978bc92311d50f250c66da1">outputs</a>; 
+<a name="l00196"></a><a class="code" href="../../dc/d32/class_item.html#a5fa24127dd0acc5a8374601b59d84a86">00196</a>     QVector&lt;s_connect *&gt; <a class="code" href="../../dc/d32/class_item.html#a5fa24127dd0acc5a8374601b59d84a86">inputs</a>; 
+<a name="l00198"></a>00198 <span class="keyword">private</span> :
+<a name="l00199"></a><a class="code" href="../../dc/d32/class_item.html#a7c2a3e2f4a82131b96a2f528519912b9">00199</a>     <span class="keywordtype">bool</span> <a class="code" href="../../dc/d32/class_item.html#a7c2a3e2f4a82131b96a2f528519912b9">deleted</a>; 
+<a name="l00201"></a>00201 };
+<a name="l00202"></a>00202 
+<a name="l00203"></a>00203 <span class="preprocessor">#endif // ITEM_H</span>
 </pre></div></div><!-- contents -->
 
 
 <hr class="footer"/><address class="footer"><small>
-Généré le Mardi Juin 12 2012 17:46:24 pour Electrosim par &#160;<a href="http://www.doxygen.org/index.html">
+Généré le Jeudi Juin 14 2012 19:58:41 pour Electrosim par &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.0
 </small></address>

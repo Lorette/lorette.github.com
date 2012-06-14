@@ -1,16 +1,16 @@
 <map id="G" name="G">
-<area shape="rect" id="node5" href="$d6/d20/mapp_8h.html" title="Interface Homme Machine, Contrôleur." alt="" coords="1695,80,1760,107"/>
-<area shape="rect" id="node35" href="$df/d1f/item_8h.html" title="Fichier de la classe mre des composants Item." alt="" coords="537,304,596,331"/>
-<area shape="rect" id="node48" href="$de/ded/input_8h.html" title="Fichier du composant Input." alt="" coords="397,229,459,256"/>
-<area shape="rect" id="node52" href="$d8/d30/output_8h.html" title="Fichier du composant Output." alt="" coords="1601,229,1671,256"/>
-<area shape="rect" id="node56" href="$d5/de9/not_8h.html" title="Fichier du composant Not." alt="" coords="483,229,533,256"/>
-<area shape="rect" id="node60" href="$df/d34/or_8h.html" title="Fichier du composant Or." alt="" coords="609,229,652,256"/>
-<area shape="rect" id="node64" href="$d5/d25/and_8h.html" title="Fichier du composant And." alt="" coords="677,229,731,256"/>
-<area shape="rect" id="node68" href="$dc/d77/multiplexer_8h.html" title="Fichier du composant Multiplexer." alt="" coords="1695,229,1791,256"/>
-<area shape="rect" id="node75" href="$de/d17/demultiplexer_8h.html" title="Fichier du composant Demultiplexer." alt="" coords="1415,229,1525,256"/>
-<area shape="rect" id="node80" href="$d7/dab/xnor_8h.html" title="Fichier du composant XNOr." alt="" coords="756,229,815,256"/>
-<area shape="rect" id="node84" href="$d1/d77/node_8h.html" title="Fichier du composant Node." alt="" coords="237,229,299,256"/>
-<area shape="rect" id="node88" href="$d2/d6b/xor_8h.html" title="Fichier du composant Xor." alt="" coords="323,229,373,256"/>
-<area shape="rect" id="node92" href="$de/dad/gridmodel_8h.html" title="Modele de la grille." alt="" coords="993,155,1081,181"/>
-<area shape="rect" id="node118" href="$d7/d9a/imagedelegate_8h.html" title="Fichier du delegue ImageDelegate." alt="" coords="3001,155,3119,181"/>
+<area shape="rect" id="node5" href="$d6/d20/mapp_8h.html" title="Interface Homme Machine, Contrôleur." alt="" coords="1503,80,1568,107"/>
+<area shape="rect" id="node35" href="$df/d1f/item_8h.html" title="Fichier de la classe mre des composants Item." alt="" coords="649,304,708,331"/>
+<area shape="rect" id="node48" href="$de/ded/input_8h.html" title="Fichier du composant Input." alt="" coords="1424,229,1485,256"/>
+<area shape="rect" id="node51" href="$d8/d30/output_8h.html" title="Fichier du composant Output." alt="" coords="480,229,549,256"/>
+<area shape="rect" id="node54" href="$d5/de9/not_8h.html" title="Fichier du composant Not." alt="" coords="323,229,373,256"/>
+<area shape="rect" id="node57" href="$df/d34/or_8h.html" title="Fichier du composant Or." alt="" coords="1305,229,1348,256"/>
+<area shape="rect" id="node60" href="$d5/d25/and_8h.html" title="Fichier du composant And." alt="" coords="574,229,628,256"/>
+<area shape="rect" id="node63" href="$dc/d77/multiplexer_8h.html" title="Fichier du composant Multiplexer." alt="" coords="1509,229,1605,256"/>
+<area shape="rect" id="node68" href="$de/d17/demultiplexer_8h.html" title="Fichier du composant Demultiplexer." alt="" coords="1681,229,1791,256"/>
+<area shape="rect" id="node72" href="$d7/dab/xnor_8h.html" title="Fichier du composant XNOr." alt="" coords="397,229,456,256"/>
+<area shape="rect" id="node75" href="$d1/d77/node_8h.html" title="Fichier du composant Node." alt="" coords="237,229,299,256"/>
+<area shape="rect" id="node78" href="$d2/d6b/xor_8h.html" title="Fichier du composant Xor." alt="" coords="653,229,704,256"/>
+<area shape="rect" id="node81" href="$de/dad/gridmodel_8h.html" title="Modele de la grille." alt="" coords="921,155,1009,181"/>
+<area shape="rect" id="node106" href="$d7/d9a/imagedelegate_8h.html" title="Fichier du delegue ImageDelegate." alt="" coords="2827,155,2944,181"/>
 </map>
